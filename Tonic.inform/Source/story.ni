@@ -5,46 +5,70 @@ When play begins:
 
 The description of the player is "You're dressed casually. You've got a green t-shirt on and black shorts - not like it matters right now."
 
+[Disable take all]
+Rule for deciding whether all includes something: it does not.
+
+Rule for printing a parser error when the latest parser error is the nothing to do error:
+	say "Hey maybe you should actually TRY and play the game, you little cheater. K, thanks." instead
+
 Chapter One [Test Room + Hallway]
 
 The Test Room is a room. The description of the test room is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room."
 The window is scenery in the test room. The description of the window is "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
 The walls is scenery in the test room. The description of the walls is "They are as white as snow and eaily hurt your eyes from the reflection of the lighting. "
-[Have something for the key to open doors here]
 
 The Dust Bunny Hideout is a room. The Dust Bunny Hideout is south of the Test Room. The description of the Dust Bunny Hideout is "You're underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you."
-[Have something for the key to open doors here]
-The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is undescribed. The description of the dust bunnies is "They are big and gray and scary."
+
+The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is undescribed. The description of the dust bunnies is "They are big and gray and scary, oh but wait. What's that? It looks like a spatula!"
+
+The Spatula is a thing in the Dust Bunny Hideout. The Spatula is undescribed. The description of the Spatula is "Not what you would normally find in you're kitchen. This Spatula is definitely more suited for a science lab."
 
 The Table is a room. The Table is up of the Dust Bunny Hideout. The description of the table is "It's made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It's about four feet tall and looks like it belongs in a science lab - oh wait it's in a science lab…." 
-[Have something for the key to open doors here]
+
+The Pair of Tongs is a thing in the Table. The description of the Pair of Tongs is "Looks like it could be used for extracting things…. Or maybe something else."
+
 The Legs is scenery in the table. the description of the legs is "stainless steel with a shine."
 
 The Shady Glades is a room. The Shady Glades is east of the test room. The description of the shady glades is "You're underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you."
-[Have something for the key to open doors here]
 
 The Chair is a room. The Chair is up of the Shady Glades. The description of the Chair is "It's cold hard plastic. Not very accomidating on the scientist's part."
-[Have something for the key to open doors here]
 
-[The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the hallway. The Big Metal Door is undescribed. The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."]
+The Clamp is a thing in the Chair. The description of the Clamp is "I wonder what this could be used for!"
 
-[The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "" [put in what you made the arm out of]]
+The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the hallway. The Big Metal Door is undescribed. The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
-[Understand "Open" as "Unlock" this is so that the player can open the door with the arm thingy]
+The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
 
-The Hallway is a room. The Hallway is west of the Test Room [Change to Big Metal Door]. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a rubbish bin in the Northeast corner."
+The Hallway is a room. The Hallway is west of the Big Metal Door.  [Change to Big Metal Door]. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a rubbish bin in the Northeast corner."
 
 The Random Science Lab Area is a room. The Random Science Lab Area is north of the Hallway. 
 
 The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal rubbish bin stands before you. I really wouldn't suggest climbing up and going into it. Who know's what kind of toxic waste is thrown in there…."
 
-The Trash Can is a room. The Trash Can is up of the Base of the Bin. The description of the Trash Can is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." ["There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."]
+The Trash Can is a room. The Trash Can is up of the Base of the Bin. The description of the Trash Can is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." 
+
+After examining the Trash Can:
+	say "There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."
 
 The Milkshake is an object. The Milkshake is in the Trash Can. The milkshake is undescribed. The description of the milkshake is "I guess someone doesn't like chocolate milkshakes."
 The Plastic Bag is an object. The Plastic Bag is in the Trash Can. The Plastic bag is undescribed. The description of the plastic bag is "There's an eerie green glow eminating from behind the Toxic symbol."
 
 
 Chapter Two [Key Table]
+
+Table of Arm Parts
+Parts List	Results
+{Clamp, Spatula}	Clamp Spatula Thingy
+{Clamp, Tongs}	Clamp Tong Thingy
+{Spatula, Tongs}	Spatula Tong Thingy
+{Clamp Spatula Thingy, Tong}	Arm Thingy
+{Clamp Tong Thingy, Spatula}	Arm Thingy
+{Spatula Tong Thingy, Clamp}	Arm Thingy
+{Clamp, Spatula, Tongs}	Arm Thingy
+
+The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thingy is "Clamp and Spatula… Need anything else?"
+The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
+The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
 
 Chapter Three [Chemical Lab]
 
@@ -53,6 +77,7 @@ The Chemical Lab is a room.
 Chapter Four [The Exit]
 
 The Exit is a room. 
+
 
 Chapter Five [Instead or something]
 
@@ -67,13 +92,18 @@ Instead of taking the milkshake:
 Instead of taking the plastic bag:
 	say "That eerie green glow is a major warning sign to NOT take it."
 
-[Instead of unlocking the Big Metal Door:
-	if player has key:
+Instead of opening door:
+	if player is not carrying Arm:
+		say "You can't reach the handle. Remember- You're three inches tall!!";
+	otherwise:
 		say "It worked!";
-		unlock Big Metal door;
-		open Big Metal door.
-	if the player does not have key:
-		say "You're itsy bitsy and can't reach the nob. Maybe you can make something to try and reach teh handle."]
+		continue the action.
+	
+Instead of going west when player is in Test Room:
+	say "You can't go that way. There's a closed door."
+
+Instead of examining table when player is in the Test room:
+	say "Maybe you should walk over there and get a closer look since you're so itsy bitsy."
 
 
 Chapter Six

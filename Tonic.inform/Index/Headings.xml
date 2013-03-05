@@ -3,50 +3,50 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6G60</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Tonic" by Brianna Hartner</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>8</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>14</integer>
         <key>Title</key><string>Chapter One</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>47</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>57</integer>
         <key>Title</key><string>Chapter Two</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>49</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>73</integer>
         <key>Title</key><string>Chapter Three</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>53</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>77</integer>
         <key>Title</key><string>Chapter Four</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>57</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>82</integer>
         <key>Title</key><string>Chapter Five</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>79</integer>
+        <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
+        <key>Line</key><integer>109</integer>
         <key>Title</key><string>Chapter Six</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
