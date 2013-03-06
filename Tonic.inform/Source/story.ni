@@ -21,21 +21,23 @@ The Dust Bunny Hideout is a room. The Dust Bunny Hideout is south of the Test Ro
 
 The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is undescribed. The description of the dust bunnies is "They are big and gray and scary, oh but wait. What's that? It looks like a spatula!"
 
-The Spatula is a thing in the Dust Bunny Hideout. The Spatula is undescribed. The description of the Spatula is "Not what you would normally find in you're kitchen. This Spatula is definitely more suited for a science lab."
+The Spatula is a thing in the Dust Bunny Hideout. The description of the Spatula is "Not what you would normally find in you're kitchen. This Spatula is definitely more suited for a science lab."
 
-The Top of the World is a room. The Top of the World is up of the Dust Bunny Hideout. The description of the table is "Even though you're only four feet off the ground, it seems like you're on top of the world."
+The Top of the World is a room. The Top of the World is up of the Dust Bunny Hideout. The description of the top of the world is "Even though you're only four feet off the ground, it seems like you're on top of the world."
 
 The Steel Table is a backdrop. The Steel Table is in the Test Room. The Steel Table is in the Dust Bunny Hideout. The Steel Table is in the Top of the world. The description of the steel table is "It's made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It's about four feet tall and looks like it belongs in a science lab - oh wait it's in a science lab…."
 
-The Pair of Tongs is a thing in the Table. The description of the Pair of Tongs is "Looks like it could be used for extracting things…. Or maybe something else."
+The Pair of Tongs is a thing in the Top of the World. The description of the Pair of Tongs is "Looks like it could be used for extracting things…. Or maybe something else."
 
-The Legs is scenery in the table. the description of the legs is "stainless steel with a shine."
+The Legs is scenery in the top of the world. the description of the legs is "stainless steel with a shine."
 
 The Shady Glades is a room. The Shady Glades is east of the test room. The description of the shady glades is "You're underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you."
 
-The Chair is a room. The Chair is up of the Shady Glades. The description of the Chair is "It's cold hard plastic. Not very accomidating on the scientist's part."
+The New Perspective is a room. The New Perspective is up of the Shady Glades. The description of the New Perspective is "You're on the seat of the chair."
 
-The Clamp is a thing in the Chair. The description of the Clamp is "I wonder what this could be used for!"
+The Chair is a backdrop. The Chair is in the Test Room. The Chair is in the Shady Glades. The Chair is in the New Perspective. The description of the Chair is "It's cold hard plastic. Not very accomidating on the scientist's part."
+
+The Clamp is a thing in the New Perspective. The description of the Clamp is "I wonder what this could be used for!"
 
 The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the hallway. The Big Metal Door is undescribed. The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
@@ -94,6 +96,12 @@ The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thin
 The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
 The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
 
+[After mixing Clamp with Spatula:
+	remove the clamp from inventory;
+	remove the spatula from inventory;
+	add the Clamp Spatula Thingy to inventory;
+	say "You've created a Clampe Spatula Thingy!"]
+
 Chapter Three [Chemical Lab]
 
 The Chemical Lab is a room. 
@@ -116,8 +124,28 @@ Instead of taking the milkshake:
 Instead of taking the plastic bag:
 	say "That eerie green glow is a major warning sign to NOT take it."
 
+Instead of taking the orange peels:
+	say "You can only carry so much, and you really want to take the moldy old orange peels over everything else? Well, it's you're choice….";
+	continue the action.
+
+Instead of taking the piece of paper:
+	say "If you really think this will come in handy";
+	continue the action. 
+
+Instead of taking the wad of tape:
+	say "That's going to make you all sticky and icky!! Whatever, if you want to….";
+	continue the action.
+
+Instead of taking the hairs:
+	say "Like someone else's hair is going to help you out here. What are you going to do? Clone the person??";
+	continue the action.
+	
+Instead of taking the sticky notes:
+	say "Just take the weird sticky noted diary of a scientist.";
+	continue the action.
+
 Instead of opening door:
-	if player is not carrying Arm:
+	if player is not carrying Arm Thingy:
 		say "You can't reach the handle. Remember- You're three inches tall!!";
 	otherwise:
 		say "It worked!";
@@ -137,6 +165,16 @@ Instead of examining Trash Bin when player is in Hallway:
 
 Instead of examining Trash Bin when the player is in the Base of the Bin:
 	say "A huge rubbish bin lurks above you. Dare to climb in?"
+
+Instead of examining the Chair when player is in the Test Room:
+	say "It's so close, but yet so far. Let's go get a closer look."
+	
+Instead of examining the Chair when player is in Shady Glades:
+	say "The Chair above you casts a lovely shadow from those harsh lab lights."
+
+Understand "combine [something] with [something]" as mixing it with. 
+Mixing it with is an action applying to two things. 
+
 
 Chapter Six
 [NOTES:
@@ -214,4 +252,12 @@ Table of Recipes
 ingredient list	result   
 {everythingnice, spice, sugar}	Ginger Snap
 {lemon, sugar, egg}	Lemon Bar
-{marshmallow, graham cracker, chocolate}	S'more]
+{marshmallow, graham cracker, chocolate}	S'more
+
+
+
+
+BIG VERSUS SMALL:
+	
+create a second room called "large potions classroom" 
+the printed name of large potions classroom is "potions classroom"]

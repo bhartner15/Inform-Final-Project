@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x5e73f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x5e73f0" />
+  <activeNode nodeId="node-0x4f66bf0" />
   <item nodeId="node-0x5e73f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -19,7 +19,7 @@ Pitch white walls surround you. There is a tinted window on the north side of th
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="4">NO</temporary>
+    <temporary score="52">NO</temporary>
     <children>
       <child nodeId="node-0x5e6c10" />
       <child nodeId="node-0x4f66d40" />
@@ -118,14 +118,238 @@ Pitch white walls surround you. There is a tinted window on the north side of th
 Dust Bunny Hideout
 You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
 
+You can see a Spatula here.
+
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
     <children>
       <child nodeId="node-0x4f66f70" />
       <child nodeId="node-0x4f66e20" />
+      <child nodeId="node-0x87ae8b0" />
     </children>
+  </item>
+  <item nodeId="node-0x87ae8b0">
+    <command xml:space="preserve">take spatula</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x4fa43b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4fa43b0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Top of the World
+Even though you&apos;re only four feet off the ground, it seems like you&apos;re on top of the world.
+
+You can see a Pair of Tongs here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xc363070" />
+    </children>
+  </item>
+  <item nodeId="node-0xc363070">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x515ab0" />
+      <child nodeId="node-0x87bf340" />
+    </children>
+  </item>
+  <item nodeId="node-0x87bf340">
+    <command xml:space="preserve">combine tongs with spatula</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4fa4090" />
+    </children>
+  </item>
+  <item nodeId="node-0x4fa4090">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Pair of Tongs
+  a Spatula
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x5496010" />
+    </children>
+  </item>
+  <item nodeId="node-0x5496010">
+    <command xml:space="preserve">combine tongs with spatule</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4fbe8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4fbe8c0">
+    <command xml:space="preserve">combine tongs with spatula</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x515ab0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x4fa7e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4fa7e00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x544db40" />
+    </children>
+  </item>
+  <item nodeId="node-0x544db40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x87ce290" />
+    </children>
+  </item>
+  <item nodeId="node-0x87ce290">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+New Perspective
+You&apos;re on the seat of the chair.
+
+You can see a Clamp here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x87c6d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x87c6d50">
+    <command xml:space="preserve">take clamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xc366d80" />
+      <child nodeId="node-0x87aec20" />
+    </children>
+  </item>
+  <item nodeId="node-0x87aec20">
+    <command xml:space="preserve">combine clamp and spatula</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0xc397890" />
+    </children>
+  </item>
+  <item nodeId="node-0xc397890">
+    <command xml:space="preserve">combine clamp with spatula</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0xc366d80">
+    <command xml:space="preserve">combine clamp with spatula</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x5484fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5484fd0">
+    <command xml:space="preserve">combine clamp spatula thingy with tongs</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x875e610" />
+    </children>
+  </item>
+  <item nodeId="node-0x875e610">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">New Perspective
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f91300" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f91300">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">New Perspective
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
   </item>
   <item nodeId="node-0x4f66e20">
     <command xml:space="preserve">x bunnies</command>
@@ -163,13 +387,12 @@ You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test
   <item nodeId="node-0x4f66f70">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
-Table
-It&apos;s made of a flat metal surface and four skinny stainless steel legs. It&apos;s about four feet tall and looks like it belongs in a science lab - oh wait it&apos;s in a science lab….⁥湡⁤潦牵猠楫湮輠Չ楡汮獥⁳瑳敥⁬敬獧‮瑉&apos;
+Top of the World
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="8">YES</temporary>
+    <temporary score="5">YES</temporary>
   </item>
   <item nodeId="node-0x4f646a0">
     <command xml:space="preserve">take thingy</command>
@@ -1229,8 +1452,8 @@ Pitch white walls surround you. There is a tinted window on the north side of th
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
     <children>
       <child nodeId="node-0x4f66c60" />
     </children>
