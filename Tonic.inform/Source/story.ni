@@ -23,7 +23,9 @@ The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is und
 
 The Spatula is a thing in the Dust Bunny Hideout. The Spatula is undescribed. The description of the Spatula is "Not what you would normally find in you're kitchen. This Spatula is definitely more suited for a science lab."
 
-The Table is a room. The Table is up of the Dust Bunny Hideout. The description of the table is "It's made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It's about four feet tall and looks like it belongs in a science lab - oh wait it's in a science lab…." 
+The Top of the World is a room. The Top of the World is up of the Dust Bunny Hideout. The description of the table is "Even though you're only four feet off the ground, it seems like you're on top of the world."
+
+The Steel Table is a backdrop. The Steel Table is in the Test Room. The Steel Table is in the Dust Bunny Hideout. The Steel Table is in the Top of the world. The description of the steel table is "It's made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It's about four feet tall and looks like it belongs in a science lab - oh wait it's in a science lab…."
 
 The Pair of Tongs is a thing in the Table. The description of the Pair of Tongs is "Looks like it could be used for extracting things…. Or maybe something else."
 
@@ -39,20 +41,42 @@ The Big Metal Door is a door. The Big Metal Door is west of the test room and ea
 
 The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
 
-The Hallway is a room. The Hallway is west of the Big Metal Door.  [Change to Big Metal Door]. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a rubbish bin in the Northeast corner."
+The Hallway is a room. The Hallway is west of the Big Metal Door.  [Change to Big Metal Door]. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
 
 The Random Science Lab Area is a room. The Random Science Lab Area is north of the Hallway. 
 
-The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal rubbish bin stands before you. I really wouldn't suggest climbing up and going into it. Who know's what kind of toxic waste is thrown in there…."
+The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal trash can stands before you. I really wouldn't suggest climbing up and going into it. Who know's what kind of toxic waste is thrown in there…."
 
-The Trash Can is a room. The Trash Can is up of the Base of the Bin. The description of the Trash Can is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." 
+The Rodent's Paradise is a room. The Rodent's Paradise is up of the Base of the Bin. The description of the Rodent's Paradise is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." 
 
-After examining the Trash Can:
-	say "There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."
+The Trash Bin is a backdrop. The Trash Bin is in the Hallway. The Trash Bin is in the Base of the Bin. The Trash Bin is in the Rodent's Paradise. The description of the Trash Bin is "There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."
 
-The Milkshake is an object. The Milkshake is in the Trash Can. The milkshake is undescribed. The description of the milkshake is "I guess someone doesn't like chocolate milkshakes."
-The Plastic Bag is an object. The Plastic Bag is in the Trash Can. The Plastic bag is undescribed. The description of the plastic bag is "There's an eerie green glow eminating from behind the Toxic symbol."
-
+The Milkshake is an object. The Milkshake is in the Rodent's Paradise. The milkshake is undescribed. The description of the milkshake is "I guess someone doesn't like chocolate milkshakes."
+The Plastic Bag is an object. The Plastic Bag is in the Rodent's Paradise. The Plastic bag is undescribed. The description of the plastic bag is "There's an eerie green glow eminating from behind the Toxic symbol."
+The Orange Peels is an object. The Orange Peels is in the Rodent's Paradise. The Orange Peels is undescribed. The description of the Orange Peels is "Just the skin of an orange, with some gnarly mold growing on it."
+The mold is scenery in the Rodent's Paradise. The description of the mold is "It's beautiful shades of blue and green, with a hint of white. Such an eye-appeal."
+The Piece of Paper is an openable closed container. The Piece of Paper is in Rodent's Paradise. The Piece of Paper is undescribed. 
+Instead of examining the Piece of Paper:
+	if the Piece of Paper is closed:
+		say "Seems to be all crinkled up in a ball.";
+	otherwise:
+		say "It seems to have writing on it:
+		ENLARGING CHEMICAL COMBONATION
+		(ingredient)
+		(ingredient)
+		(ingredient)".		
+The Wad of Tape is an object. The Wad of Tape is in Rodent's Paradise. The Wad of Tape is undescribed. The description of the wad of tape is "Normal Clear Tape with some hairs attached to it. gross…".
+The hairs is an object in Rodent's Paradise. The hairs is undescribed. The description of the hairs is "Black strands of glory."
+The Sticky Notes is an object. The Sticky Notes is in Rodent's Paradise. The Sticky Notes is undescribed. The description of the Sticky Notes is "Just random notes:
+To Do: 
+Create Anitdote for Shrink Potion
+Ask Boss for raise
+If boss says no - quit job
+start looking for houses in Seattle
+look for job openings in Seattle
+Change (ingredient) in Enlarging Chemical Combonation to (other ingredient)
+Get a girlfriend
+Get a life……"
 
 Chapter Two [Key Table]
 
@@ -102,9 +126,17 @@ Instead of opening door:
 Instead of going west when player is in Test Room:
 	say "You can't go that way. There's a closed door."
 
-Instead of examining table when player is in the Test room:
-	say "Maybe you should walk over there and get a closer look since you're so itsy bitsy."
+Instead of examining Steel Table when player is in Test Room:
+	say "It's probably only a few feet away, but right now it's like a whole nother building to the south of you."
+	
+Instead of examining the steel table when player is in dust bunny hideout:
+	say "Directly above you stands a steel table. Are you up for a climb?"
 
+Instead of examining Trash Bin when player is in Hallway:
+	say "You can't see much from here. Maybe you should get a closer look."
+
+Instead of examining Trash Bin when the player is in the Base of the Bin:
+	say "A huge rubbish bin lurks above you. Dare to climb in?"
 
 Chapter Six
 [NOTES:
