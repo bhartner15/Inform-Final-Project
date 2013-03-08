@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x28d0d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xd740cb0" />
+  <activeNode nodeId="node-0x50ec40" />
   <item nodeId="node-0x28d0d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -21,7 +21,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">NO</temporary>
+    <temporary score="927">NO</temporary>
     <children>
       <child nodeId="node-0x5b1b10" />
       <child nodeId="node-0x29fb40" />
@@ -472,7 +472,7 @@ You can see a Spatula here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x29fad0" />
       <child nodeId="node-0x29f4f0" />
@@ -486,7 +486,7 @@ You can see a Spatula here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x296fd0" />
     </children>
@@ -502,7 +502,7 @@ You can see a Pair of Tongs here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x297040" />
       <child nodeId="node-0x505d00" />
@@ -515,7 +515,7 @@ You can see a Pair of Tongs here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x4f9a440" />
     </children>
@@ -527,7 +527,7 @@ You can see a Pair of Tongs here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x5117e0" />
     </children>
@@ -541,7 +541,7 @@ You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd77f950" />
     </children>
@@ -557,7 +557,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd73b320" />
     </children>
@@ -571,7 +571,7 @@ You&apos;re underneath the chair blocking out those harshly bright lights provid
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x5a6ce0" />
     </children>
@@ -587,7 +587,7 @@ You can see a Clamp here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc6bf340" />
     </children>
@@ -599,7 +599,7 @@ You can see a Clamp here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc6b7ee0" />
     </children>
@@ -613,7 +613,7 @@ You now have a a Clamp Tong Thingy.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x2e57a0" />
     </children>
@@ -627,7 +627,7 @@ You now have a an Arm Thingy.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x5ea680" />
     </children>
@@ -641,7 +641,7 @@ You&apos;re underneath the chair blocking out those harshly bright lights provid
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x5897d0" />
     </children>
@@ -657,7 +657,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc62ad30" />
     </children>
@@ -668,7 +668,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc641ea0" />
     </children>
@@ -681,7 +681,7 @@ You unlock the Big Metal Door.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x81a6700" />
     </children>
@@ -693,7 +693,7 @@ You unlock the Big Metal Door.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc6733b0" />
     </children>
@@ -705,7 +705,7 @@ You unlock the Big Metal Door.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc6730c0" />
     </children>
@@ -717,7 +717,7 @@ You unlock the Big Metal Door.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x50fe50" />
     </children>
@@ -733,7 +733,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x50d0b0" />
     </children>
@@ -745,7 +745,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd7074a0" />
     </children>
@@ -757,7 +757,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc0d7d30" />
     </children>
@@ -769,7 +769,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc0ac330" />
     </children>
@@ -781,7 +781,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd744670" />
     </children>
@@ -793,7 +793,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc6b6460" />
     </children>
@@ -805,7 +805,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd7037d0" />
     </children>
@@ -817,7 +817,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x512f50" />
     </children>
@@ -833,7 +833,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc04e930" />
     </children>
@@ -849,7 +849,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd753850" />
     </children>
@@ -861,7 +861,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd77ede0" />
     </children>
@@ -876,7 +876,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x8114220" />
     </children>
@@ -888,7 +888,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc0267c0" />
     </children>
@@ -900,7 +900,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd7e7ea0" />
     </children>
@@ -914,7 +914,7 @@ You can&apos;t go that way.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x4f4acd0" />
     </children>
@@ -933,7 +933,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xc083a10" />
     </children>
@@ -945,7 +945,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd703b00" />
     </children>
@@ -961,7 +961,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0x103b9240" />
     </children>
@@ -973,7 +973,7 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="524">YES</temporary>
+    <temporary score="927">YES</temporary>
     <children>
       <child nodeId="node-0xd740cb0" />
     </children>
@@ -984,8 +984,422 @@ You can see a Big Metal Door here.
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc67c330" />
+    </children>
+  </item>
+  <item nodeId="node-0xc67c330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xd75b760" />
+    </children>
+  </item>
+  <item nodeId="node-0xd75b760">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x5afbd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5afbd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ebfea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ebfea0">
+    <command xml:space="preserve">open chemical door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xd773680" />
+    </children>
+  </item>
+  <item nodeId="node-0xd773680">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Base of the Bin
+A giant metal trash can stands before you. I really wouldn&apos;t suggest climbing up and going into it. Who know&apos;s what kind of toxic waste is thrown in there….
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ec1ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ec1ed0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6dd5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6dd5e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I don&apos;t think you need to go this way to solve you&apos;re current problem. There&apos;s probably loads of scientists over there who wouldn&apos;t think twice about locking you in a box. 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc656830" />
+    </children>
+  </item>
+  <item nodeId="node-0xc656830">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Base of the Bin
+A giant metal trash can stands before you. I really wouldn&apos;t suggest climbing up and going into it. Who know&apos;s what kind of toxic waste is thrown in there….
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ec5580" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ec5580">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Rodent&apos;s Paradise
+Yuck. I can&apos;t believe you are actually in here. Well, I guess it doesn&apos;t smell that bad. If you&apos;re willing to get your hands dirty, feel free to rummage through this junk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6436c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6436c0">
+    <command xml:space="preserve">x trash</command>
+    <result xml:space="preserve">There&apos;s a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xed278d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xed278d0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">(the Arm Thingy)
+You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ebb060" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ebb060">
+    <command xml:space="preserve">x milkshake</command>
+    <result xml:space="preserve">I guess someone doesn&apos;t like chocolate milkshakes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6cf780" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6cf780">
+    <command xml:space="preserve">take milkshake</command>
+    <result xml:space="preserve">It&apos;s an X-tra large, and your X-tra small.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc694100" />
+    </children>
+  </item>
+  <item nodeId="node-0xc694100">
+    <command xml:space="preserve">x bag</command>
+    <result xml:space="preserve">There&apos;s an eerie green glow eminating from behind the Toxic symbol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12e54c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x12e54c80">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">That eerie green glow is a major warning sign to NOT take it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12eb0050" />
+    </children>
+  </item>
+  <item nodeId="node-0x12eb0050">
+    <command xml:space="preserve">x peel</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc638c30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc638c30">
+    <command xml:space="preserve">x peels</command>
+    <result xml:space="preserve">Just the skin of an orange, with some gnarly mold growing on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6eff10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6eff10">
+    <command xml:space="preserve">take peel</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6e5d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6e5d10">
+    <command xml:space="preserve">take peels</command>
+    <result xml:space="preserve">You can only carry so much, and you really want to take the moldy old orange peels over everything else? Well, it&apos;s you&apos;re choice….
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x5dacf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5dacf0">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">Seems to be all crinkled up in a ball.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc63e760" />
+    </children>
+  </item>
+  <item nodeId="node-0xc63e760">
+    <command xml:space="preserve">open paper</command>
+    <result xml:space="preserve">You open the Piece of Paper.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7cd7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7cd7f0">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">It seems to have writing on it: ENLARGING CHEMICAL COMBONATION (ingredient) (ingredient) (ingredient)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0c8cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0c8cc0">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">If you really think this will come in handy
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6bf930" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6bf930">
+    <command xml:space="preserve">x tape</command>
+    <result xml:space="preserve">Normal Clear Tape with some hairs attached to it. gross…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc617ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc617ab0">
+    <command xml:space="preserve">take tape</command>
+    <result xml:space="preserve">That&apos;s going to make you all sticky and icky!! Whatever, if you want to….
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc698570" />
+    </children>
+  </item>
+  <item nodeId="node-0xc698570">
+    <command xml:space="preserve">x hairs</command>
+    <result xml:space="preserve">Black strands of glory.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x525100" />
+    </children>
+  </item>
+  <item nodeId="node-0x525100">
+    <command xml:space="preserve">take hairs</command>
+    <result xml:space="preserve">Like someone else&apos;s hair is going to help you out here. What are you going to do? Clone the person??
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6e97a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6e97a0">
+    <command xml:space="preserve">x notes</command>
+    <result xml:space="preserve">Just random notes:
+
+To Do:
+
+Create Anitdote for Shrink Potion
+
+Ask Boss for raise
+
+If boss says no - quit job
+
+start looking for houses in Seattle
+
+look for job openings in Seattle
+
+Change (ingredient) in Enlarging Chemical Combonation to (other ingredient)
+
+Get a girlfriend
+
+Get a life……
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="523">YES</temporary>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x12e51490" />
+    </children>
+  </item>
+  <item nodeId="node-0x12e51490">
+    <command xml:space="preserve">take notes</command>
+    <result xml:space="preserve">Just take the weird sticky noted diary of a scientist.
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0xc619300" />
+    </children>
+  </item>
+  <item nodeId="node-0xc619300">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Base of the Bin
+A giant metal trash can stands before you. I really wouldn&apos;t suggest climbing up and going into it. Who know&apos;s what kind of toxic waste is thrown in there….
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="927">YES</temporary>
+    <children>
+      <child nodeId="node-0x50ec40" />
+    </children>
+  </item>
+  <item nodeId="node-0x50ec40">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="926">YES</temporary>
   </item>
   <item nodeId="node-0x297040">
     <command xml:space="preserve">take tongs</command>

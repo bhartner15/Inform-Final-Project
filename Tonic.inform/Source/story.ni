@@ -50,8 +50,6 @@ The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is 
 
 The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
 
-The Random Science Lab Area is a room. The Random Science Lab Area is north of the Hallway. 
-
 The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal trash can stands before you. I really wouldn't suggest climbing up and going into it. Who know's what kind of toxic waste is thrown in there…."
 
 The Rodent's Paradise is a room. The Rodent's Paradise is up of the Base of the Bin. The description of the Rodent's Paradise is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." 
@@ -75,14 +73,23 @@ Instead of examining the Piece of Paper:
 The Wad of Tape is an object. The Wad of Tape is in Rodent's Paradise. The Wad of Tape is undescribed. The description of the wad of tape is "Normal Clear Tape with some hairs attached to it. gross…".
 The hairs is an object in Rodent's Paradise. The hairs is undescribed. The description of the hairs is "Black strands of glory."
 The Sticky Notes is an object. The Sticky Notes is in Rodent's Paradise. The Sticky Notes is undescribed. The description of the Sticky Notes is "Just random notes:
+
 To Do: 
+
 Create Anitdote for Shrink Potion
+
 Ask Boss for raise
+
 If boss says no - quit job
+
 start looking for houses in Seattle
+
 look for job openings in Seattle
+
 Change (ingredient) in Enlarging Chemical Combonation to (other ingredient)
+
 Get a girlfriend
+
 Get a life……"
 
 Chapter Two [Key Table]
@@ -140,6 +147,8 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 
 Chapter Three [Chemical Lab]
 
+[The Chemical Door is west of the Hallway and east of the Chemical Room.]
+
 The Chemical Lab is a room. 
 
 Chapter Four [The End]
@@ -151,7 +160,8 @@ Chapter Five [Instead or something]
 
 Instead of taking the dust bunnies:
 	say "Those critters aren't going to fit in you back pocket while you're still three inches tall."
-Instead of entering the Random Science Lab Area:
+
+Instead of going north when player is in Hallway:
 	say "I don't think you need to go this way to solve you're current problem. There's probably loads of scientists over there who wouldn't think twice about locking you in a box. "
 
 Instead of taking the milkshake:
@@ -219,7 +229,11 @@ Instead of examining the Chair when player is in Shady Glades:
 Instead of going north when player is in the Test Room:
 	say "You're wasting time. It's a window that you can't see through. Get over it."
 
-
+[Instead of going west when player is in the Hallway:
+	if Chemical Door is closed:
+		say "There is a door.";
+	if Chemical Door is open:
+		continue the action.]
 
 
 Chapter Six
