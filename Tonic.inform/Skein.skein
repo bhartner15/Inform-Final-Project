@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x5e73f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x28d0d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4f66bf0" />
-  <item nodeId="node-0x5e73f0">
+  <activeNode nodeId="node-0xd740cb0" />
+  <item nodeId="node-0x28d0d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,108 +11,299 @@
 You&apos;ve needed extra cash and this science lab was willing to pay good money for you to be a &quot;test bunny&quot;. You took this chemical mixture but it did nothing at first so the scientists left you alone in the test room until later on. After and hour you end up being shrunk to three inches tall. You now realize how serious these scientists are and you must figure out how to get yourself back to normal proportions and escape the lab
 Tonic
 An Interactive Fiction by Brianna Hartner
-Release 1 / Serial number 130306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130308 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Test Room
-Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="52">NO</temporary>
+    <temporary score="524">NO</temporary>
     <children>
-      <child nodeId="node-0x5e6c10" />
-      <child nodeId="node-0x4f66d40" />
-      <child nodeId="node-0x4f66bf0" />
-      <child nodeId="node-0x4f66950" />
-      <child nodeId="node-0x4f66800" />
-      <child nodeId="node-0x4f666b0" />
-      <child nodeId="node-0x4f66560" />
-      <child nodeId="node-0x4f646a0" />
-      <child nodeId="node-0x4f66db0" />
-      <child nodeId="node-0x5e6c60" />
+      <child nodeId="node-0x5b1b10" />
+      <child nodeId="node-0x29fb40" />
+      <child nodeId="node-0x295f80" />
+      <child nodeId="node-0x5b1970" />
+      <child nodeId="node-0xc6565e0" />
+      <child nodeId="node-0x5b1aa0" />
+      <child nodeId="node-0x2a1bb0" />
+      <child nodeId="node-0x2828d0" />
+      <child nodeId="node-0xd75f600" />
+      <child nodeId="node-0x5b15e0" />
+      <child nodeId="node-0x2a1a60" />
+      <child nodeId="node-0xc02e570" />
+      <child nodeId="node-0x2a1910" />
     </children>
   </item>
-  <item nodeId="node-0x5e6c60">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way. There&apos;s a closed door.
+  <item nodeId="node-0x2a1910">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You&apos;re wasting time. It&apos;s a window that you can&apos;t see through. Get over it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1980" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Table Underside
+Here the table acutally blocks those super bright lights and provides a nice cooling shade. The Open Test room is north of you and the table is directly above you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x5e6ed0" />
-      <child nodeId="node-0x5e6e80" />
+      <child nodeId="node-0x2a19f0" />
     </children>
   </item>
-  <item nodeId="node-0x5e6e80">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You can&apos;t reach the handle. Remember- You&apos;re three inches tall!!
+  <item nodeId="node-0x2a19f0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Table Underside
+Here the table acutally blocks those super bright lights and provides a nice cooling shade. The Open Test room is north of you and the table is directly above you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x5e6ed0">
+  <item nodeId="node-0xc02e570">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">It&apos;s tinted and you can&apos;t see a thing through it. The scientists were probably observing you from the other side.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x5c55e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5c55e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x2a1a60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1ad0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Chair
+It&apos;s cold hard plastic. Not very accomidating on the scientist&apos;s part.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1b40">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x5b15e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x5b1630" />
+    </children>
+  </item>
+  <item nodeId="node-0x5b1630">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x5e6f40" />
+      <child nodeId="node-0x5b1680" />
     </children>
   </item>
-  <item nodeId="node-0x5e6f40">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">It&apos;s a pretty big door, no matter how big you are.
+  <item nodeId="node-0x5b1680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x5e6fb0" />
+      <child nodeId="node-0x5b16d0" />
     </children>
   </item>
-  <item nodeId="node-0x5e6fb0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.
+  <item nodeId="node-0x5b16d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x5e70a0" />
+      <child nodeId="node-0x5b1720" />
     </children>
   </item>
-  <item nodeId="node-0x5e70a0">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">What do you want to unlock the Big Metal Door with?
+  <item nodeId="node-0x5b1720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x4f64650" />
+      <child nodeId="node-0x5b1790" />
     </children>
   </item>
-  <item nodeId="node-0x4f64650">
-    <command xml:space="preserve">unlock door with key</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x5b1790">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <temporary score="77">YES</temporary>
   </item>
-  <item nodeId="node-0x4f66db0">
+  <item nodeId="node-0xd75f600">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xd79bdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd79bdc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x59ebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x59ebc0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+New Perspective
+You&apos;re on the seat of the chair.
+
+You can see a Clamp here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc63bd70" />
+    </children>
+  </item>
+  <item nodeId="node-0xc63bd70">
+    <command xml:space="preserve">take clamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xd709b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd709b10">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x531200" />
+    </children>
+  </item>
+  <item nodeId="node-0x531200">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc664240" />
+    </children>
+  </item>
+  <item nodeId="node-0xc664240">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc643a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xc643a50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dust Bunny Hideout
@@ -123,26 +314,38 @@ You can see a Spatula here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x4f66f70" />
-      <child nodeId="node-0x4f66e20" />
-      <child nodeId="node-0x87ae8b0" />
+      <child nodeId="node-0xc6a7470" />
     </children>
   </item>
-  <item nodeId="node-0x87ae8b0">
+  <item nodeId="node-0xc6a7470">
     <command xml:space="preserve">take spatula</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x4fa43b0" />
+      <child nodeId="node-0x5f0790" />
     </children>
   </item>
-  <item nodeId="node-0x4fa43b0">
+  <item nodeId="node-0x5f0790">
+    <command xml:space="preserve">combine spatula with clamp</command>
+    <result xml:space="preserve">You fuse together the Spatula and the Clamp.
+
+You now have a a Clamp Spatula Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ec1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ec1a0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Top of the World
@@ -153,35 +356,811 @@ You can see a Pair of Tongs here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0xc363070" />
+      <child nodeId="node-0x4f93790" />
     </children>
   </item>
-  <item nodeId="node-0xc363070">
+  <item nodeId="node-0x4f93790">
     <command xml:space="preserve">take tongs</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x515ab0" />
-      <child nodeId="node-0x87bf340" />
+      <child nodeId="node-0x4f3e320" />
     </children>
   </item>
-  <item nodeId="node-0x87bf340">
+  <item nodeId="node-0x4f3e320">
+    <command xml:space="preserve">combine tongs with clamp spatula thingy</command>
+    <result xml:space="preserve">You fuse together the Pair of Tongs and the Clamp Spatula Thingy.
+
+You now have a an Arm Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc061720" />
+    </children>
+  </item>
+  <item nodeId="node-0xc061720">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an Arm Thingy
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6623d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6623d0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f9ee10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f9ee10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc662870" />
+    </children>
+  </item>
+  <item nodeId="node-0xc662870">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x52ad50" />
+    </children>
+  </item>
+  <item nodeId="node-0x52ad50">
+    <command xml:space="preserve">unlock door with armthingy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6a80d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6a80d0">
+    <command xml:space="preserve">unlock door with arm thingy</command>
+    <result xml:space="preserve">You unlock the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0x2828d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+You can see a Spatula here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fad0" />
+      <child nodeId="node-0x29f4f0" />
+      <child nodeId="node-0x29f300" />
+    </children>
+  </item>
+  <item nodeId="node-0x29f300">
+    <command xml:space="preserve">take spatula</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x296fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x296fd0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Top of the World
+Even though you&apos;re only four feet off the ground, it seems like you&apos;re on top of the world.
+
+You can see a Pair of Tongs here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x297040" />
+      <child nodeId="node-0x505d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x505d00">
+    <command xml:space="preserve">take tong</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f9a440" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f9a440">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x5117e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5117e0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd77f950" />
+    </children>
+  </item>
+  <item nodeId="node-0xd77f950">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd73b320" />
+    </children>
+  </item>
+  <item nodeId="node-0xd73b320">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x5a6ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5a6ce0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+New Perspective
+You&apos;re on the seat of the chair.
+
+You can see a Clamp here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6bf340" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6bf340">
+    <command xml:space="preserve">take clamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6b7ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6b7ee0">
+    <command xml:space="preserve">combine clamp with tongs</command>
+    <result xml:space="preserve">You fuse together the Clamp and the Pair of Tongs.
+
+You now have a a Clamp Tong Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x2e57a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2e57a0">
+    <command xml:space="preserve">combine clamp tong thingy with spatula</command>
+    <result xml:space="preserve">You fuse together the Clamp Tong Thingy and the Spatula.
+
+You now have a an Arm Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea680" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea680">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x5897d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5897d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc62ad30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc62ad30">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You have an arm thingy to unlock the door
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc641ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc641ea0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the Arm Thingy)
+You unlock the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x81a6700" />
+    </children>
+  </item>
+  <item nodeId="node-0x81a6700">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can now open the door since the handle has been turned.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6733b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6733b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can now open the door since the handle has been turned.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6730c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6730c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x50fe50" />
+    </children>
+  </item>
+  <item nodeId="node-0x50fe50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x50d0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50d0b0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7074a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7074a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0d7d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0d7d30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0ac330" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0ac330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd744670" />
+    </children>
+  </item>
+  <item nodeId="node-0xd744670">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6b6460" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6b6460">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7037d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7037d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x512f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x512f50">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc04e930" />
+    </children>
+  </item>
+  <item nodeId="node-0xc04e930">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd753850" />
+    </children>
+  </item>
+  <item nodeId="node-0xd753850">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd77ede0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd77ede0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x8114220" />
+    </children>
+  </item>
+  <item nodeId="node-0x8114220">
+    <command xml:space="preserve">x big metal door</command>
+    <result xml:space="preserve">It&apos;s a pretty big door, no matter how big you are.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0267c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0267c0">
+    <command xml:space="preserve">actions on</command>
+    <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7e7ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7e7ea0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">[going west]
+You can&apos;t go that way.
+[going west - failed the can&apos;t go that way rule]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4acd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4acd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">[going east]
+
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+[going east - succeeded]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xc083a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc083a10">
+    <command xml:space="preserve">actions off</command>
+    <result xml:space="preserve">Actions listing off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd703b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd703b00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0x103b9240" />
+    </children>
+  </item>
+  <item nodeId="node-0x103b9240">
+    <command xml:space="preserve">x lights</command>
+    <result xml:space="preserve">Very bright and florecent. It&apos;s hard to look directly at them.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="524">YES</temporary>
+    <children>
+      <child nodeId="node-0xd740cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd740cb0">
+    <command xml:space="preserve">x floor</command>
+    <result xml:space="preserve">Abestos tile. Cheap, but it reflects the light very well and seems easy to clean.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="523">YES</temporary>
+  </item>
+  <item nodeId="node-0x297040">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ecf0" />
+      <child nodeId="node-0x22f530" />
+      <child nodeId="node-0x53ab10" />
+    </children>
+  </item>
+  <item nodeId="node-0x53ab10">
+    <command xml:space="preserve">combine spatula with tongs</command>
+    <result xml:space="preserve">You fuse together the Spatula and the Pair of Tongs.
+
+You now have a a Spatula Tong Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6303e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6303e0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6bd670" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6bd670">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x588590" />
+    </children>
+  </item>
+  <item nodeId="node-0x588590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6634a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6634a0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+New Perspective
+You&apos;re on the seat of the chair.
+
+You can see a Clamp here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc04e620" />
+    </children>
+  </item>
+  <item nodeId="node-0xc04e620">
+    <command xml:space="preserve">take clamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc65a680" />
+    </children>
+  </item>
+  <item nodeId="node-0xc65a680">
+    <command xml:space="preserve">combine clamp with spatula tong thingy</command>
+    <result xml:space="preserve">You fuse together the Clamp and the Spatula Tong Thingy.
+
+You now have a an Arm Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x531b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x531b30">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc62da50" />
+    </children>
+  </item>
+  <item nodeId="node-0xc62da50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6b9100" />
+    </children>
+  </item>
+  <item nodeId="node-0xc6b9100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way. There&apos;s a closed door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x53d720" />
+    </children>
+  </item>
+  <item nodeId="node-0x53d720">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It worked!
+
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x22f530">
     <command xml:space="preserve">combine tongs with spatula</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0x4fa4090" />
+      <child nodeId="node-0x20ebe0" />
     </children>
   </item>
-  <item nodeId="node-0x4fa4090">
+  <item nodeId="node-0x20ebe0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Pair of Tongs
@@ -192,10 +1171,10 @@ You can see a Pair of Tongs here.
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0x5496010" />
+      <child nodeId="node-0x20ec30" />
     </children>
   </item>
-  <item nodeId="node-0x5496010">
+  <item nodeId="node-0x20ec30">
     <command xml:space="preserve">combine tongs with spatule</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -204,17 +1183,17 @@ You can see a Pair of Tongs here.
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0x4fbe8c0" />
+      <child nodeId="node-0x20ec80" />
     </children>
   </item>
-  <item nodeId="node-0x4fbe8c0">
+  <item nodeId="node-0x20ec80">
     <command xml:space="preserve">combine tongs with spatula</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
   </item>
-  <item nodeId="node-0x515ab0">
+  <item nodeId="node-0x20ecf0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Dust Bunny Hideout
@@ -225,10 +1204,10 @@ You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x4fa7e00" />
+      <child nodeId="node-0x29f430" />
     </children>
   </item>
-  <item nodeId="node-0x4fa7e00">
+  <item nodeId="node-0x29f430">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Test Room
@@ -239,10 +1218,10 @@ Pitch white walls surround you. There is a tinted window on the north side of th
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x544db40" />
+      <child nodeId="node-0x29f560" />
     </children>
   </item>
-  <item nodeId="node-0x544db40">
+  <item nodeId="node-0x29f560">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Shady Glades
@@ -253,10 +1232,10 @@ You&apos;re underneath the chair blocking out those harshly bright lights provid
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x87ce290" />
+      <child nodeId="node-0x22f5c0" />
     </children>
   </item>
-  <item nodeId="node-0x87ce290">
+  <item nodeId="node-0x22f5c0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 New Perspective
@@ -269,10 +1248,10 @@ You can see a Clamp here.
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x87c6d50" />
+      <child nodeId="node-0x29f5d0" />
     </children>
   </item>
-  <item nodeId="node-0x87c6d50">
+  <item nodeId="node-0x29f5d0">
     <command xml:space="preserve">take clamp</command>
     <result xml:space="preserve">Taken.
 
@@ -281,11 +1260,11 @@ You can see a Clamp here.
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xc366d80" />
-      <child nodeId="node-0x87aec20" />
+      <child nodeId="node-0x29f720" />
+      <child nodeId="node-0x29f640" />
     </children>
   </item>
-  <item nodeId="node-0x87aec20">
+  <item nodeId="node-0x29f640">
     <command xml:space="preserve">combine clamp and spatula</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -294,10 +1273,10 @@ You can see a Clamp here.
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
     <children>
-      <child nodeId="node-0xc397890" />
+      <child nodeId="node-0x29f6b0" />
     </children>
   </item>
-  <item nodeId="node-0xc397890">
+  <item nodeId="node-0x29f6b0">
     <command xml:space="preserve">combine clamp with spatula</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -306,17 +1285,17 @@ You can see a Clamp here.
     <changed>YES</changed>
     <temporary score="16">YES</temporary>
   </item>
-  <item nodeId="node-0xc366d80">
+  <item nodeId="node-0x29f720">
     <command xml:space="preserve">combine clamp with spatula</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x5484fd0" />
+      <child nodeId="node-0x29f790" />
     </children>
   </item>
-  <item nodeId="node-0x5484fd0">
+  <item nodeId="node-0x29f790">
     <command xml:space="preserve">combine clamp spatula thingy with tongs</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -325,10 +1304,10 @@ You can see a Clamp here.
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x875e610" />
+      <child nodeId="node-0x29f800" />
     </children>
   </item>
-  <item nodeId="node-0x875e610">
+  <item nodeId="node-0x29f800">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">New Perspective
 [Previous turn undone.]
@@ -338,10 +1317,10 @@ You can see a Clamp here.
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x4f91300" />
+      <child nodeId="node-0x29f4a0" />
     </children>
   </item>
-  <item nodeId="node-0x4f91300">
+  <item nodeId="node-0x29f4a0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">New Perspective
 [Previous turn undone.]
@@ -351,7 +1330,7 @@ You can see a Clamp here.
     <changed>NO</changed>
     <temporary score="50">YES</temporary>
   </item>
-  <item nodeId="node-0x4f66e20">
+  <item nodeId="node-0x29f4f0">
     <command xml:space="preserve">x bunnies</command>
     <result xml:space="preserve">They are big and gray and scary.
 
@@ -360,10 +1339,10 @@ You can see a Clamp here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x4f66e90" />
+      <child nodeId="node-0x29f9f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f66e90">
+  <item nodeId="node-0x29f9f0">
     <command xml:space="preserve">take bunnies</command>
     <result xml:space="preserve">Those critters aren&apos;t going to fit in you back pocket while you&apos;re still three inches tall.
 
@@ -372,10 +1351,10 @@ You can see a Clamp here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x4f66f00" />
+      <child nodeId="node-0x29fa60" />
     </children>
   </item>
-  <item nodeId="node-0x4f66f00">
+  <item nodeId="node-0x29fa60">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">You&apos;re dressed casually. You&apos;ve got a green t-shirt on and black shorts - not like it matters right now.
 
@@ -384,7 +1363,7 @@ You can see a Clamp here.
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x4f66f70">
+  <item nodeId="node-0x29fad0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Top of the World
@@ -394,936 +1373,7 @@ Top of the World
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x4f646a0">
-    <command xml:space="preserve">take thingy</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64710" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64710">
-    <command xml:space="preserve">open big metal door with arm thingy</command>
-    <result xml:space="preserve">You unlock the Big Metal Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64780" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64780">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the Big Metal Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f648b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f648b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x5e7040" />
-    </children>
-  </item>
-  <item nodeId="node-0x5e7040">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You must supply a noun.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64920" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64920">
-    <command xml:space="preserve">enter the big metal door</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64990" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64990">
-    <command xml:space="preserve">enter the hallway</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64a00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64a70">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">That&apos;s already open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64ae0">
-    <command xml:space="preserve">go through door</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64b50">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f647f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f647f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64840" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64840">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64d40">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shady Glades
-You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64db0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Test Room
-Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64e20" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64e20">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64e90" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64e90">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64f00" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64f00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64f70">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64fe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64fe0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65050" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65050">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f650c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f650c0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65130" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65130">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f651a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f651a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64bc0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64c30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f64ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f64ca0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65450" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65450">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f654c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f654c0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65530" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65530">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f655a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f655a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65610" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65610">
-    <command xml:space="preserve">ww</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65680" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65680">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f656f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f656f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65760" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65760">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f657d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f657d0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65840" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65840">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f658b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f658b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65920" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65920">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65990" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65990">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65a00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65a70">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65ae0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65b50">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65210" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65210">
-    <command xml:space="preserve">ww</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65280" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65280">
-    <command xml:space="preserve">ww</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f652f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f652f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65360" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65360">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f653d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f653d0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65bc0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65c30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65ca0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65d10" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65d10">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65d80" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65d80">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65df0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65df0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65e60" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65e60">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65ed0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65ed0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65f40" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65f40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f65fb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f65fb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66020" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66020">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66090" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66090">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66100" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66100">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66170" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66170">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f661e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f661e0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66250" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66250">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f662c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f662c0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66330" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66330">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f663a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f663a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66410" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66410">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66480" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66480">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f664f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f664f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="71">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f66560">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f665d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f665d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Table Underside
-Here the table acutally blocks those super bright lights and provides a nice cooling shade. The Open Test room is north of you and the table is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66640" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66640">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Table Underside
-Here the table acutally blocks those super bright lights and provides a nice cooling shade. The Open Test room is north of you and the table is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f666b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shady Glades
-You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66720" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66720">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Chair
-It&apos;s cold hard plastic. Not very accomidating on the scientist&apos;s part.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66790" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66790">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Shady Glades
-You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f66800">
+  <item nodeId="node-0x2a1bb0">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">It&apos;s probably only a few feet away, but right now it&apos;s like a whole nother building to the south of you.
 
@@ -1332,10 +1382,10 @@ You&apos;re underneath the chair blocking out those harshly bright lights provid
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x4f66870" />
+      <child nodeId="node-0x5b1570" />
     </children>
   </item>
-  <item nodeId="node-0x4f66870">
+  <item nodeId="node-0x5b1570">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dust Bunny Hideout
@@ -1346,11 +1396,11 @@ You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test
     <changed>NO</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x4f668e0" />
-      <child nodeId="node-0x4f021b0" />
+      <child nodeId="node-0x5b1390" />
+      <child nodeId="node-0x5b1340" />
     </children>
   </item>
-  <item nodeId="node-0x4f021b0">
+  <item nodeId="node-0x5b1340">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">Directly above you stands a steel table. Are you up for a climb?
 
@@ -1359,11 +1409,11 @@ You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x4f668e0">
+  <item nodeId="node-0x5b1390">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Table
-It&apos;s made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It&apos;s about four feet tall and looks like it belongs in a science lab - oh wait it&apos;s in a science lab….ll
+It&apos;s made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It&apos;s about four feet tall and looks like it belongs in a science lab - oh wait it&apos;s in a science lab….ll and
 
 You can see a Pair of Tongs here.
 
@@ -1372,114 +1422,7 @@ You can see a Pair of Tongs here.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x4f66950">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Test Room
-Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f669c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f669c0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66a30">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shady Glades
-You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66aa0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66b10" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66b10">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Test Room
-Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66b80" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66b80">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f66bf0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Hey maybe you should actually TRY and play the game, you little cheater. K, thanks.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66c60" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66c60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f66cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4f66cd0">
-    <command xml:space="preserve">x table</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f66d40">
+  <item nodeId="node-0x5b1aa0">
     <command xml:space="preserve">unlock big metal door with arm thingy</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1488,7 +1431,73 @@ Pitch white walls surround you. There is a tinted window on the north side of th
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
   </item>
-  <item nodeId="node-0x5e6c10">
+  <item nodeId="node-0xc6565e0">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">It&apos;s so close, but yet so far. Let&apos;s go get a closer look.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x28c6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x28c6c0">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">It&apos;s probably only a few feet away, but right now it&apos;s like a whole nother building to the south of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x59c7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x59c7b0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Hey maybe you should actually TRY and play the game, you little cheater. K, thanks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x5b1970">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Hey maybe you should actually TRY and play the game, you little cheater. K, thanks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x5b19c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5b19c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5b1a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5b1a30">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x295f80">
     <command xml:space="preserve">who are you?</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1496,5 +1505,937 @@ Pitch white walls surround you. There is a tinted window on the north side of th
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x29fb40">
+    <command xml:space="preserve">take thingy</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fbb0">
+    <command xml:space="preserve">open big metal door with arm thingy</command>
+    <result xml:space="preserve">You unlock the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fc20">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fc90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fd00">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fd70" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fd70">
+    <command xml:space="preserve">enter the big metal door</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fde0">
+    <command xml:space="preserve">enter the hallway</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fe50" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fe50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29f870" />
+    </children>
+  </item>
+  <item nodeId="node-0x29f870">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x29f8e0">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29f950" />
+    </children>
+  </item>
+  <item nodeId="node-0x29f950">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0100" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0170" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0170">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a01e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a01e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0250" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0250">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a02c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a02c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0330" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a03a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a03a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0410" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0480" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0480">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a04f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a04f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0560" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0560">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a05d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a05d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0640" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0640">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a06b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a06b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0720" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0790" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0790">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0800" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0800">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29fec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x29fec0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29ff30" />
+    </children>
+  </item>
+  <item nodeId="node-0x29ff30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x29ffa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x29ffa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0010" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0010">
+    <command xml:space="preserve">ww</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0080" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0080">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0870" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0870">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a08e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a08e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0950" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0950">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a09c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a09c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0a30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0aa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0b10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0b80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0bf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0c60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0cd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0d40">
+    <command xml:space="preserve">ww</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0db0">
+    <command xml:space="preserve">ww</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0e20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0e90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0f00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0f70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a0fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a0fe0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1050" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1050">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a10c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a10c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1130" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a11a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a11a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1210" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1210">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1280" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1280">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a12f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a12f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1360" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1360">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a13d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a13d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1440" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1440">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a14b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a14b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1520" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1590" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1590">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1600" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1670" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1670">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a16e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a16e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1750" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1750">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a17c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a17c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1830" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1830">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a18a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a18a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+  </item>
+  <item nodeId="node-0x5b1b10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way. There&apos;s a closed door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f451d0" />
+      <child nodeId="node-0x4f45160" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f45160">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t reach the handle. Remember- You&apos;re three inches tall!!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f451d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f45240" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f45240">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">It&apos;s a pretty big door, no matter how big you are.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f452b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f452b0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f45320" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f45320">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the Big Metal Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f45390" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f45390">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
   </item>
 </Skein>

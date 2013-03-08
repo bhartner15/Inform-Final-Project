@@ -13,9 +13,14 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 
 Chapter One [Test Room + Hallway]
 
-The Test Room is a room. The description of the test room is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. There is a big metal door on the west side of the room."
+The Test Room is a room. The description of the test room is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door."
+
 The window is scenery in the test room. The description of the window is "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
 The walls is scenery in the test room. The description of the walls is "They are as white as snow and eaily hurt your eyes from the reflection of the lighting. "
+
+The lights is a backdrop. The lights is in the Test Room. The lights is in the Hallway. The description of the lights is "Very bright and florecent. It's hard to look directly at them."
+
+The floor is a backdrop. The floor is in the Test Room. The floor is in the Hallway. The description of the floor is "Abestos tile. Cheap, but it reflects the light very well and seems easy to clean."
 
 The Dust Bunny Hideout is a room. The Dust Bunny Hideout is south of the Test Room. The description of the Dust Bunny Hideout is "You're underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you."
 
@@ -39,11 +44,11 @@ The Chair is a backdrop. The Chair is in the Test Room. The Chair is in the Shad
 
 The Clamp is a thing in the New Perspective. The description of the Clamp is "I wonder what this could be used for!"
 
-The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the hallway. The Big Metal Door is undescribed. The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
+The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the Hallway.  The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
 The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
 
-The Hallway is a room. The Hallway is west of the Big Metal Door.  [Change to Big Metal Door]. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
 
 The Random Science Lab Area is a room. The Random Science Lab Area is north of the Hallway. 
 
@@ -82,12 +87,47 @@ Get a life……"
 
 Chapter Two [Key Table]
 
+[The combining action]
+Understand "combine [something] with [something]" as combining it with.
+Combining it with is an action applying to two things.
+
+[The line below tells Inform7 that combining produces something.]
+The combining it with action has an object called the Contraption.
+
+Setting action variables for combining something with something: 
+	let X be a list of objects;
+	add the noun to X;
+	add the second noun to X;
+	sort X; 
+	repeat through the Table of Arm Parts: 
+		let Y be the parts list entry; 
+		sort Y; 
+		if X is Y: 
+			now the Contraption is the results entry.
+
+[if there is no match for the combination of things, there is no result for the combining, so STOP the action]
+Check combining it with:
+	if Contraption is nothing:
+		say "You can't combine [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
+		stop the action.
+
+[If action is not stopped, continue to…]
+Carry out combining it with: 
+	say "You fuse together [the noun] and [the second noun].";
+	remove the noun from play;
+	remove the second noun from play;
+	move the Contraption to the player.
+
+Report combining it with:
+	say "You now have a [a Contraption]."
+
+
 Table of Arm Parts
 Parts List	Results
 {Clamp, Spatula}	Clamp Spatula Thingy
 {Clamp, Tongs}	Clamp Tong Thingy
 {Spatula, Tongs}	Spatula Tong Thingy
-{Clamp Spatula Thingy, Tong}	Arm Thingy
+{Clamp Spatula Thingy, Tongs}	Arm Thingy
 {Clamp Tong Thingy, Spatula}	Arm Thingy
 {Spatula Tong Thingy, Clamp}	Arm Thingy
 {Clamp, Spatula, Tongs}	Arm Thingy
@@ -96,19 +136,15 @@ The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thin
 The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
 The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
 
-[After mixing Clamp with Spatula:
-	remove the clamp from inventory;
-	remove the spatula from inventory;
-	add the Clamp Spatula Thingy to inventory;
-	say "You've created a Clampe Spatula Thingy!"]
+
 
 Chapter Three [Chemical Lab]
 
 The Chemical Lab is a room. 
 
-Chapter Four [The Exit]
+Chapter Four [The End]
 
-The Exit is a room. 
+The Exit is a room. The Exit is south of the Hallway.
 
 
 Chapter Five [Instead or something]
@@ -148,11 +184,19 @@ Instead of opening door:
 	if player is not carrying Arm Thingy:
 		say "You can't reach the handle. Remember- You're three inches tall!!";
 	otherwise:
-		say "It worked!";
-		continue the action.
+		if the Big Metal Door is locked:
+			say "You have an arm thingy to unlock the door";
+		otherwise:
+			continue the action.
 	
 Instead of going west when player is in Test Room:
-	say "You can't go that way. There's a closed door."
+	if the Big Metal Door is closed:
+		if the Big Metal Door is locked:
+			say "You can't go that way. There's a closed door.";
+		if the Big Metal Door is unlocked:
+			say "You can now open the door since the handle has been turned.";
+	if the Big Metal Door is open:
+		continue the action.
 
 Instead of examining Steel Table when player is in Test Room:
 	say "It's probably only a few feet away, but right now it's like a whole nother building to the south of you."
@@ -172,8 +216,10 @@ Instead of examining the Chair when player is in the Test Room:
 Instead of examining the Chair when player is in Shady Glades:
 	say "The Chair above you casts a lovely shadow from those harsh lab lights."
 
-Understand "combine [something] with [something]" as mixing it with. 
-Mixing it with is an action applying to two things. 
+Instead of going north when player is in the Test Room:
+	say "You're wasting time. It's a window that you can't see through. Get over it."
+
+
 
 
 Chapter Six
