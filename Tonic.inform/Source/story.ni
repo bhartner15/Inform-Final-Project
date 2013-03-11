@@ -58,7 +58,7 @@ The Trash Bin is a backdrop. The Trash Bin is in the Hallway. The Trash Bin is i
 
 The Milkshake is an object. The Milkshake is in the Rodent's Paradise. The milkshake is undescribed. The description of the milkshake is "I guess someone doesn't like chocolate milkshakes."
 The Plastic Bag is an object. The Plastic Bag is in the Rodent's Paradise. The Plastic bag is undescribed. The description of the plastic bag is "There's an eerie green glow eminating from behind the Toxic symbol."
-The Orange Peels is an object. The Orange Peels is in the Rodent's Paradise. The Orange Peels is undescribed. The description of the Orange Peels is "Just the skin of an orange, with some gnarly mold growing on it."
+The Orange Peels is an edible object. The Orange Peels is in the Rodent's Paradise. The Orange Peels is undescribed. The description of the Orange Peels is "Just the skin of an orange, with some gnarly mold growing on it."
 The mold is scenery in the Rodent's Paradise. The description of the mold is "It's beautiful shades of blue and green, with a hint of white. Such an eye-appeal."
 The Piece of Paper is an openable closed container. The Piece of Paper is in Rodent's Paradise. The Piece of Paper is undescribed. 
 Instead of examining the Piece of Paper:
@@ -147,7 +147,7 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 
 Chapter Three [Chemical Lab]
 
-[The Chemical Door is west of the Hallway and east of the Chemical Room.]
+The Steel Door is a door. The Steel Door is west of the Hallway and east of the Chemical Lab. 
 
 The Chemical Lab is a room. 
 
@@ -229,12 +229,8 @@ Instead of examining the Chair when player is in Shady Glades:
 Instead of going north when player is in the Test Room:
 	say "You're wasting time. It's a window that you can't see through. Get over it."
 
-[Instead of going west when player is in the Hallway:
-	if Chemical Door is closed:
-		say "There is a door.";
-	if Chemical Door is open:
-		continue the action.]
-
+Instead of eating the orange peels:
+	say "There's no fruit, it's just the peels AND its been in the garbage."
 
 Chapter Six
 [NOTES:
