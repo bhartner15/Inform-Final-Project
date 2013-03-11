@@ -3,13 +3,15 @@
 When play begins:
 	say "You've needed extra cash and this science lab was willing to pay good money for you to be a 'test bunny'. You took this chemical mixture but it did nothing at first so the scientists left you alone in the test room until later on. After and hour you end up being shrunk to three inches tall. You now realize how serious these scientists are and you must figure out how to get yourself back to normal proportions and escape the lab"
 
-The description of the player is "You're dressed casually. You've got a green t-shirt on and black shorts - not like it matters right now."
-
 [Disable take all]
 Rule for deciding whether all includes something: it does not.
 
 Rule for printing a parser error when the latest parser error is the nothing to do error:
 	say "Hey maybe you should actually TRY and play the game, you little cheater. K, thanks." instead
+
+Book One [When Player is Small]
+
+The description of the player is "You're dressed casually. You've got a green t-shirt on and black shorts. Oh and you're also only 3 inches tall." [Remember to change player description after you become big]
 
 Chapter One [Test Room + Hallway]
 
@@ -232,7 +234,11 @@ Instead of going north when player is in the Test Room:
 Instead of eating the orange peels:
 	say "There's no fruit, it's just the peels AND its been in the garbage."
 
-Chapter Six
+
+Book Two [When Player is Normal]
+
+Book Three [Notes]
+
 [NOTES:
 	"test mixing potions" by Mary Kiang
 

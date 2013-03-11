@@ -10300,7 +10300,7 @@ Array T1_locale_priorities table  tab_1_0 tab_1_1;
 Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array T2_arm_parts table  tab_2_0 tab_2_1;
-Array tab_2_0 table $066b 9  (LIST_CONST_1071)  (LIST_CONST_1079)  (LIST_CONST_1087)  (LIST_CONST_1095)  (LIST_CONST_1104)  (LIST_CONST_1113)  (LIST_CONST_1122) ;
+Array tab_2_0 table $066b 9  (LIST_CONST_1074)  (LIST_CONST_1082)  (LIST_CONST_1090)  (LIST_CONST_1098)  (LIST_CONST_1107)  (LIST_CONST_1116)  (LIST_CONST_1125) ;
 Array tab_2_1 table $086c NULL  (I118_clamp_spatula_thingy)  (I119_clamp_tong_thingy)  (I120_spatula_tong_thingy)  (I106_arm_thingy)  (I106_arm_thingy)  (I106_arm_thingy)  (I106_arm_thingy) ;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
@@ -26697,13 +26697,13 @@ Verb meta 'tree'
 
 [ LITTLE_USED_DO_NOTHING_R; rfalse; ];
 
-Array LIST_CONST_1071 --> 0 9 2 (I104_clamp) (I96_spatula) ;
-Array LIST_CONST_1079 --> 0 9 2 (I104_clamp) (I99_pair_of_tongs) ;
-Array LIST_CONST_1087 --> 0 9 2 (I96_spatula) (I99_pair_of_tongs) ;
-Array LIST_CONST_1095 --> 0 9 2 (I118_clamp_spatula_thingy) (I99_pair_of_tongs) ;
-Array LIST_CONST_1104 --> 0 9 2 (I119_clamp_tong_thingy) (I96_spatula) ;
-Array LIST_CONST_1113 --> 0 9 2 (I120_spatula_tong_thingy) (I104_clamp) ;
-Array LIST_CONST_1122 --> 0 9 3 (I104_clamp) (I96_spatula) (I99_pair_of_tongs) ;
+Array LIST_CONST_1074 --> 0 9 2 (I104_clamp) (I96_spatula) ;
+Array LIST_CONST_1082 --> 0 9 2 (I104_clamp) (I99_pair_of_tongs) ;
+Array LIST_CONST_1090 --> 0 9 2 (I96_spatula) (I99_pair_of_tongs) ;
+Array LIST_CONST_1098 --> 0 9 2 (I118_clamp_spatula_thingy) (I99_pair_of_tongs) ;
+Array LIST_CONST_1107 --> 0 9 2 (I119_clamp_tong_thingy) (I96_spatula) ;
+Array LIST_CONST_1116 --> 0 9 2 (I120_spatula_tong_thingy) (I104_clamp) ;
+Array LIST_CONST_1125 --> 0 9 3 (I104_clamp) (I96_spatula) (I99_pair_of_tongs) ;
 
 
 
@@ -28560,7 +28560,7 @@ ArgumentTypeFailed(filename, line);
 
 
 Array ConstantListPointers --> 
-LIST_CONST_1071 LIST_CONST_1079 LIST_CONST_1087 LIST_CONST_1095 LIST_CONST_1104 LIST_CONST_1113 LIST_CONST_1122  0 0;
+LIST_CONST_1074 LIST_CONST_1082 LIST_CONST_1090 LIST_CONST_1098 LIST_CONST_1107 LIST_CONST_1116 LIST_CONST_1125  0 0;
 
 Constant SC_61 = " ";
 Constant SC_91 = " Need anything else?";
@@ -28641,7 +28641,7 @@ Constant SC_42 = "You can't see much from here. Maybe you should get a closer lo
 Constant SC_82 = "You fuse together ";
 Constant SC_60 = "You have an arm thingy to unlock the door";
 Constant SC_83 = "You now have a ";
-Constant SC_4 = "You're dressed casually. You've got a green t-shirt on and black shorts - not like it matters right now.";
+Constant SC_4 = "You're dressed casually. You've got a green t-shirt on and black shorts. Oh and you're also only 3 inches tall.";
 Constant SC_17 = "You're on the seat of the chair.";
 Constant SC_16 = "You're underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.";
 Constant SC_11 = "You're underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.";
