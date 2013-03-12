@@ -18,7 +18,7 @@ Chapter One [Test Room + Hallway]
 The Test Room is a room. The description of the test room is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door."
 
 The window is scenery in the test room. The description of the window is "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
-The walls is scenery in the test room. The description of the walls is "They are as white as snow and eaily hurt your eyes from the reflection of the lighting. "
+The walls is a backdrop. the walls is in the test room. the walls is in the parking lot. The description of the walls is "They are as white as snow and eaily hurt your eyes from the reflection of the lights. "
 
 The lights is a backdrop. The lights is in the Test Room. The lights is in the Hallway. The description of the lights is "Very bright and florecent. It's hard to look directly at them."
 
@@ -48,7 +48,7 @@ The Clamp is a thing in the New Perspective. The description of the Clamp is "I 
 
 The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the Hallway.  The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
-The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
+The Arm Thingy unlocks the Big Metal Door and the Steel Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
 
 The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
 
@@ -69,9 +69,9 @@ Instead of examining the Piece of Paper:
 	otherwise:
 		say "It seems to have writing on it:
 		ENLARGING CHEMICAL COMBONATION
-		(ingredient)
-		(ingredient)
-		(ingredient)".		
+		Chemical X
+		Potassium
+		Mercury".		
 The Wad of Tape is an object. The Wad of Tape is in Rodent's Paradise. The Wad of Tape is undescribed. The description of the wad of tape is "Normal Clear Tape with some hairs attached to it. gross…".
 The hairs is an object in Rodent's Paradise. The hairs is undescribed. The description of the hairs is "Black strands of glory."
 The Sticky Notes is an object. The Sticky Notes is in Rodent's Paradise. The Sticky Notes is undescribed. The description of the Sticky Notes is "Just random notes:
@@ -88,11 +88,16 @@ start looking for houses in Seattle
 
 look for job openings in Seattle
 
-Change (ingredient) in Enlarging Chemical Combonation to (other ingredient)
+Change Mercury in Enlarging Chemical Combonation to Magnesium.
 
 Get a girlfriend
 
 Get a life……"
+
+The Exit Door is a door. The Exit Door is south of the hallway and north of the Parking Lot. The description of the exit door is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
+
+The Parking Lot is a room.
+
 
 Chapter Two [Key Table]
 
@@ -149,16 +154,53 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 
 Chapter Three [Chemical Lab]
 
-The Steel Door is a door. The Steel Door is west of the Hallway and east of the Chemical Lab. 
+The Steel Door is a door. The Steel door is locked. The Steel Door is west of the Hallway and east of the Chemical Lab. The description of the Steel Door is "A steel door with a sign that says 'Chemical Lab'."
 
-The Chemical Lab is a room. 
+The Intern is a man in the Hallway.
 
-Chapter Four [The End]
+The Chemical Lab is a room. The description of the Chemical Lab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a refrigerator to the south."
 
-The Exit is a room. The Exit is south of the Hallway.
+The Bar is a backdrop. The Bar is in the Chemical Lab. The Bar is in the Tiled Wall. The Bar is in the Grayscale. The description of the Bar is "Made of gray stone. Nothing that special"
+
+The Shelf is a backdrop. The Shelf is in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
+
+The Cabinent is a backdrop.
+
+The refrigerator is a backdrop. 
+
+The Tiled Wall is a room. The Tiled Wall is north of the Chemical Lab. The description of the Tiled Wall is "Tiles stretch out in front of you up to the Bar. The Bar is above you. Wanna go up?"
+
+The tiles is an object. The tiles is undescribed. The description of the tiles is "normal stone.".
+Instead of taking the tiles:
+	say "It's attached to the wall. Not happening today."
+
+The Grayscale is a room. The Grayscale is up of the Tiled Wall. The description of the Grayscale is "You're on top of the Bar. There's nothing on the Bar, but there is a shelf above you with things you can't quite recognize from here."
+
+The Edge is a room. The Edge is up of the Grayscale. The description of the Edge is "You're on top of the shelf and a variety of chemicals stand before you."
+
+The Chemicals is an object. The Chemicals is undescribed. The description of the Chemicals is "There are many different viles and containers. The labels say that they are: Sugar, Iodine, Sodium, Mercury, Potassium, Magnesium, Spice, Water, Chemical X, and Propane."
+
+The Sugar is an object in the Edge. The Sugar is undescribed. The description of the Sugar is "Sugar makes you hyper. Maybe sugar will make you're cell division hyper making you grow faster? Eh, maybe not."
+
+The Mercury is an edible object. The Mercury is in the Cool Zone. 
+
+The Potassium is an edible object. the Potassium is in the Edge. The Potassium is undescribed.
+
+The Magnesium is an edible object. The magnesium is in the Cool Zone. 
+
+The Spice is an edible object in the Edge. The Spice is undescribed.
+
+The Chemical X is an edible object in the Edge. The Chemical X is undescribed.
 
 
-Chapter Five [Instead or something]
+The Cool Zone is a Room. The description of the Cool Zone is "Brrr. It's cold in here."
+
+
+The Whitescale is a Room.
+
+The Bowl is an open, fixed in place container in the Whitescale. 
+
+Chapter Four [Instead or something]
 
 Instead of taking the dust bunnies:
 	say "Those critters aren't going to fit in you back pocket while you're still three inches tall."
@@ -234,8 +276,93 @@ Instead of going north when player is in the Test Room:
 Instead of eating the orange peels:
 	say "There's no fruit, it's just the peels AND its been in the garbage."
 
+Instead of going south when player is in Hallway:
+	say "I don't think its a good idea to leave in your current condition."
+
+Instead of going west when player is in Hallway:
+	if the Steel Door is closed:
+		if the Steel Door is locked:
+			say "You have the arm thingy for a reason.";
+		if the Steel Door is unlocked:
+			say "You can now open the door since the handle has been turned.";
+	if the Steel Door is open:
+		continue the action.
+		
+Chapter Five [Key for Chemicals]
+
+
+[substances that can be made from mixing chemicals]
+
+The Color is an edible thing. The printed name of the color is "Potion". The description is "I wonder what this does."
+The Powerpuff girl is an edible thing. The printed name of the powerpuff girl is "Potion". The description is "I wonder what this does."
+The Enlarging is an edible thing. The printed name of the enlarging is "Potion". The description is "I wonder what this does."
+The Bug Eye is an edible thing. The printed name of the bug eye is "Potion". The description is "I wonder what this does."
+The Dog is an edible thing. The printed name of the dog is "Potion". The description is "I wonder what this does."
+The Mutant is an edible thing. The printed name of the mutant is "Potion". The description is "I wonder what this does."
+The geek is an edible thing. The printed name of the geek is "Potion". The description is "I wonder what this does."
+The Harry is an edible thing. The printed name of the harry is "Potion". The description is "I wonder what this does."
+The Smell is an edible thing. The printed name of the smell is "Potion". The description is "I wonder what this does."
+The Death is an edible thing. The printed name of the death is "Potion". The description is "I wonder what this does."
+The miniscule is an edible thing. The printed name of the miniscule is "Potion". The description is "I wonder what this does."
+The elephant is an edible thing. The printed name of the elephant is "Potion". The description is "I wonder what this does."
+The Bald is an edible thing. The printed name of the bald is "Potion". The description is "I wonder what this does."
+The 
+[
+
+[The mixing action]
+Understand "mix" as mixing.
+Mixing is an action applying to nothing.
+Understand "mix chemicals" and "mix things in bowl" as mixing.
+
+[The line below tells Inform7 that mixing produces something.]
+The mixing action has an object called the Substance.
+
+[Check the list of things in bowl against a table that tells you what you get when those ingredients are mixed.
+Setting up code and a table for results of mixing. 
+The code:
+• sorts the things in bowl alphabetically
+• compares this alphabetical list of things in bowl to a Table of Recipes.
+• If the list of things matches an entry in this Table of Recipes:
+• those ingredients will be removed from play 
+• and their result will now be in the bowl.]
+Setting action variables for mixing: 
+let X be a list of objects; [creating a, for now, blank list.]
+repeat with item running through things in Bowl: [adding the things currently in the bowl to the list we just created.]
+add item to X;
+sort X; [sorting our list A to Z]
+repeat through the Table of Recipes: [looking in the Table we created]
+let Y be the ingredient list entry; [looking at an ingredients entry]
+sort Y; [A to Z sorting of the ingredients in an entry]
+if X is Y: [do the items in the bowl match an ingredients entry?]
+now the Substance is the result entry.  [If so, the player now has the matching result (that we called Substance.)]
+
+[if there is no match for the mix of ingredients in the bowl, there is no result for the mixing, so STOP the action]
+Check mixing:
+if Substance is nothing:
+say "You can't combine [list of things in bowl] into anything useful.[line break]Try another combination of ingredients.";
+stop the action.
+[If action is not stopped, continue to…]
+Carry out mixing: 
+say "You mix together [list of things in bowl].";
+repeat with item running through things in Bowl: [Since mixing worked, we will one by one remove the ingredients in the bowl...]
+remove item from play;
+move the Substance to the Bowl. [...and move the created result to the bowl.]
+Report mixing:
+say "You now have a [a Substance]." [announce the player's success in making the Substance.]
+[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	
+Table of Recipes
+ingredient list	result   
+{everythingnice, spice, sugar}	Ginger Snap
+{lemon, sugar, egg}	Lemon Bar
+{marshmallow, graham cracker, chocolate}	S'more]
 
 Book Two [When Player is Normal]
+
+Chapter One
+
+Chapter Two
+
+Chapter Three
 
 Book Three [Notes]
 
