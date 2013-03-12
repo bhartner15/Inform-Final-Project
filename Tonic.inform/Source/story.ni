@@ -306,8 +306,9 @@ The Death is an edible thing. The printed name of the death is "Potion". The des
 The miniscule is an edible thing. The printed name of the miniscule is "Potion". The description is "I wonder what this does."
 The elephant is an edible thing. The printed name of the elephant is "Potion". The description is "I wonder what this does."
 The Bald is an edible thing. The printed name of the bald is "Potion". The description is "I wonder what this does."
-The 
-[
+The Thrist is an edible thing. The printed name of the thirst is "Potion". The description is "I wonder what this does."
+The deaf is an edible thing. The printed name of the deaf is "Potion". The description is "I wonder what this does."
+
 
 [The mixing action]
 Understand "mix" as mixing.
@@ -316,7 +317,7 @@ Understand "mix chemicals" and "mix things in bowl" as mixing.
 
 [The line below tells Inform7 that mixing produces something.]
 The mixing action has an object called the Substance.
-
+[
 [Check the list of things in bowl against a table that tells you what you get when those ingredients are mixed.
 Setting up code and a table for results of mixing. 
 The code:
