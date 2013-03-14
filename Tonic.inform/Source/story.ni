@@ -99,6 +99,18 @@ The Exit Door is a door. The Exit Door is south of the hallway and north of the 
 
 The Parking Lot is a room.
 
+The Scientist is a man. The Scientist is in the Hallway. The description of the scientist is "He's just leaning against the wall, playing around with his phone. Hmm maybe he's on break. You look up at his face and realise he was the man that gave you the shrinking potion and told you to go into the Test Room. Dr Cooper, I think."
+
+After examining scientist for the first time:
+	say "It's seems like he does not notice you."
+	
+Understand "talk" as talking.
+Understand "talk to scientist" as talking.
+Talking is an action applying to nothing.
+
+After talking:
+	say "You caught the attention of the scientist and he recognized you. Well, not cause of your face but probably because of your noticable size. He picks you up, takes you away, and locks you in a dark box. There's no way out now.";
+	end the game in death.
 
 Chapter Two [Key Table]
 
@@ -156,8 +168,6 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 Chapter Three [Chemical Lab]
 
 The Steel Door is a door. The Steel door is locked. The Steel Door is west of the Hallway and east of the Chemical Lab. The description of the Steel Door is "A steel door with a sign that says 'Chemical Lab'."
-
-The Intern is a man in the Hallway.
 
 The Chemical Lab is a room. The description of the Chemical Lab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a refrigerator to the south."
 
@@ -330,6 +340,12 @@ Instead of examining the Shelf when the player is in Chemical Lab:
 	
 Instead of examining the refrigerator when the player is in the Chemical Lab:
 	say "Very modern looking with the steel door and long handles"
+	
+Understand "xyzzy" as planking.
+Planking is an action applying to nothing.
+
+Instead of planking:
+	say "Doritos could be made without the powder and taste exactly the same. It was left on because it was decided that the residue left on your fingers was part of the 'Doritos experience'."
 
 Chapter Five [Key for Chemicals]
 
@@ -437,7 +453,7 @@ After eating the Powerpuff Girl:
 Understand "Fly" as flying.
 Flying is an action applying to nothing
 
-The pocket mirror is an object. The pocket mirror is in the player's inventory. The description of the pocket mirror is "You got it a long time ago and can't seem to go any where without it. Strange."
+The pocket mirror is an object. The pocket mirror is in the inventory. The description of the pocket mirror is "You got it a long time ago and can't seem to go any where without it. Strange."
 
 After flying:
 	say "Wow! You can really fly!! You just sped across the room in mid air at the speed of light! [line break] You notice a window to the west. Too small for any regular sized person to fit through, but a Powerpuff Girl could 'escape (to the) west' !"
@@ -526,6 +542,11 @@ The xChemicalxLab [the first x makes the room original, the second acts as a spa
 
 The Refridgerator is an openable closed container in the xChemicalxLab. The Refridgerator is fixed in place. The description of the Refridgerator is "Very modern looking with the steel door and long handles."
 
+After examining the Refrigerator for the first time:
+	say "Hmm.. there's something on the top of the refrigerator… it's a.. um.. oh it looks like a lab coat!"
+
+The lab coat is wearable thing. The lab coat is undescribed. The lab coat is in the xChemicalxLab. The description of the lab coat is "It's the fashion style for scientists near and far."
+
 The Handles is scenery in the xChemicalxLab. The description of the handles is "they stretch from the top of the door to the base."
 
 The Cabinet is an object, fixed in place in the xChemicalxLab. the cabinet is undescribed. The description of the Cabinet is "You just mixed chemicals there. It looks a little different since you're actually bigger than it now."
@@ -546,96 +567,19 @@ The xBigxMetal Door is a door. The xBigxMetal Door is east of the xHallway and w
 
 The xTestxRoom is a room. The description of the xTestxRoom is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
 
+The xChair is an enterable scenery supporter in the xTestxRoom. The printed name of the xChair is "Chair." The description of the xChair is "It's cold hard plastic. Not very accomidating on the scientist's part"
 
-Chapter One
+The xTable is a fixed in place object in the xTestxRoom. The printed name of the xTable is "Table". The xtable is undescribed. The description of the xTable is "It's made of four skinny stainless steel legs and two flat metal surfaces, one for the desk and the other inches from the ground. It's about four feet tall and looks like it belongs in a science lab - oh wait it's in a science lab…."
 
-Chapter Two
+The TintedxWindow is scenery in the xTestxRoom. The printed name of the TintedxWindow is "Tinted Window". The description of the TintedxWindow is  "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
 
-Chapter Three
+The ExitxDoor is a door. The ExitxDoor is south of the xHallway. The printed name of the ExitxDoor is "Exit Door." The description of the ExitxDoor is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
 
-Book Four [Notes]
+Book Four [Cheats]
 
-[NOTES:
-	"test mixing potions" by Mary Kiang
+Understand "Everyday I'm shuffling" as leafing.
+Leafing is an action applying to nothing.
 
-[A short IF to test mixing potions.]
+After leafing:
+	move player to Hallway.
 
-Use no scoring.
-
-Kitchen is a room. The description of Kitchen is "A room full of supplies, tools, and possibilities."
-
-Supplies is scenery in Kitchen. The description of supplies is "Everything from spice to cat hair."
-Tools is scenery in Kitchen. The description of Tools is "Every tool you'd ever need."
-Possibilities is scenery in Kitchen. The description of Possibilities is "Endless."
-
-[some ingredients to experiment with. For this test IF, I did not give them descriptions.]
-sugar, spice, and everythingnice, cat hair, lemon, egg, marshmallow, graham cracker, chocolate are things in Kitchen.
-
-Recipe book is a thing in Kitchen. The description of recipe book is "Recipes for all kinds of yummy things: Just 3 ingredients each! Let's open this book and get started!"
-
-pages is a thing in Kitchen. It is undescribed. The description of pages is "Stuck together, forever."
-
-Instead of opening book:
-say "The cover says the book contains no-cook recipes for making a Ginger Snap, a S'more, and a Lemon Bar, but the pages are all stuck together, so you can't get the book open to see how.[line break]Guess you'll just have to experiment. Try putting different combinations of 3 things in the bowl, then MIX!"
-
-[Substances that can be made with the right mix of ingredients.]
-Ginger Snap is an edible thing. The description of Ginger Snap is "Gingery and snappy."
-Lemon Bar is an edible thing. The description of Lemonade is "Lemony, with just the right amount of pucker."
-S'more is an edible thing. The description of S'more is "Yummmmm……"
-
-Bowl is an open, fixed in place container in Kitchen. The description of Bowl is "Just the right size to put 3 things in and mix."
-
-[The mixing action]
-Understand "mix" as mixing.
-Mixing is an action applying to nothing.
-Understand "mix ingredients" and "mix supplies" and "mix things in bowl" as mixing.
-
-[The line below tells Inform7 that mixing produces something.]
-The mixing action has an object called the Substance.
-
-[Check the list of things in bowl against a table that tells you what you get when those ingredients are mixed.
-Setting up code and a table for results of mixing. 
-The code:
-• sorts the things in bowl alphabetically
-• compares this alphabetical list of things in bowl to a Table of Recipes.
-• If the list of things matches an entry in this Table of Recipes:
-• those ingredients will be removed from play 
-• and their result will now be in the bowl.]
-Setting action variables for mixing: 
-let X be a list of objects; [creating a, for now, blank list.]
-repeat with item running through things in Bowl: [adding the things currently in the bowl to the list we just created.]
-add item to X;
-sort X; [sorting our list A to Z]
-repeat through the Table of Recipes: [looking in the Table we created]
-let Y be the ingredient list entry; [looking at an ingredients entry]
-sort Y; [A to Z sorting of the ingredients in an entry]
-if X is Y: [do the items in the bowl match an ingredients entry?]
-now the Substance is the result entry.  [If so, the player now has the matching result (that we called Substance.)]
-
-[if there is no match for the mix of ingredients in the bowl, there is no result for the mixing, so STOP the action]
-Check mixing:
-if Substance is nothing:
-say "You can't combine [list of things in bowl] into anything useful.[line break]Try another combination of ingredients.";
-stop the action.
-[If action is not stopped, continue to…]
-Carry out mixing: 
-say "You mix together [list of things in bowl].";
-repeat with item running through things in Bowl: [Since mixing worked, we will one by one remove the ingredients in the bowl...]
-remove item from play;
-move the Substance to the Bowl. [...and move the created result to the bowl.]
-Report mixing:
-say "You now have a [a Substance]." [announce the player's success in making the Substance.]
-[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	
-Table of Recipes
-ingredient list	result   
-{everythingnice, spice, sugar}	Ginger Snap
-{lemon, sugar, egg}	Lemon Bar
-{marshmallow, graham cracker, chocolate}	S'more
-
-
-
-
-BIG VERSUS SMALL:
-	
-create a second room called "large potions classroom" 
-the printed name of large potions classroom is "potions classroom"]
