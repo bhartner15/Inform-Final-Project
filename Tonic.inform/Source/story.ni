@@ -205,6 +205,8 @@ The drain is a backdrop. The drain is in the Whitescale. The drain is in the Che
 
 The Water is in the Cool Zone. The Water is undescribed. The description of the water is "Would be great if you were VERY thirsty."
 
+The Fridge Door is a door. The Fridge Door is south of the Chemical Lab and north of the Cool Zone. The description is "Luckily the handles stretch all the way from the top to the bottom so you can open the door at any size."
+
 Chapter Four [Instead or something]
 
 Instead of taking the dust bunnies:
@@ -511,7 +513,16 @@ After eating the death:
 
 Book Three [When Player is Normal]
 
-The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". 
+The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". The description of the xChemicalxLab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a fridge to the south"
+
+The Fridge is an openable closed container in the xChemicalxLab. The Fridge is fixed in place. The description of the Fridge is "Very modern looking with the steel door and long handles."
+
+The handles is scenery in the xChemicalxLab. The description of the handles is "they stretch from the top of the door to the base."
+
+The xHallway is a room. The xHallway is east of the xChemicalxLab. The description of the xHallway is "It's not too different from any room here, just in hallway shape: The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+
+The xTestxRoom is a room. The xTestxRoom is east of the xHallway. The description of the xTestxRoom is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
+
 
 Chapter One
 
