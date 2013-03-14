@@ -163,11 +163,11 @@ The Chemical Lab is a room. The description of the Chemical Lab is "It's a room 
 
 The Bar is a backdrop. The Bar is in the Chemical Lab. The Bar is in the Tiled Wall. The Bar is in the Grayscale. The description of the Bar is "Made of gray stone. Nothing that special"
 
-The Shelf is a backdrop. The Shelf is in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
+The Shelf is a backdrop in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
 
-The Cabinent is a backdrop.
+The Cabinent is a backdrop in the Chemical Lab.
 
-The refrigerator is a backdrop. 
+The refrigerator is a backdrop in the Chemical Lab. 
 
 The Tiled Wall is a room. The Tiled Wall is north of the Chemical Lab. The description of the Tiled Wall is "Tiles stretch out in front of you up to the Bar. The Bar is above you. Wanna go up?"
 
@@ -321,6 +321,15 @@ Instead of going south when player is in the New Perspective:
 
 Instead of going west when player is in the New Perspective:
 	say "You will fall off the edge. Gotta go down first."
+	
+Instead of examining the Cabinet when the player is in Chemical Lab:
+	say "Let's go get a closer look."
+	
+Instead of examining the Shelf when the player is in Chemical Lab:
+	say "It's too far away to examine it from here."
+	
+Instead of examining the refrigerator when the player is in the Chemical Lab:
+	say "Very modern looking with the steel door and long handles"
 
 Chapter Five [Key for Chemicals]
 
@@ -515,13 +524,27 @@ Book Three [When Player is Normal]
 
 The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". The description of the xChemicalxLab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a fridge to the south"
 
-The Fridge is an openable closed container in the xChemicalxLab. The Fridge is fixed in place. The description of the Fridge is "Very modern looking with the steel door and long handles."
+The Refridgerator is an openable closed container in the xChemicalxLab. The Refridgerator is fixed in place. The description of the Refridgerator is "Very modern looking with the steel door and long handles."
 
-The handles is scenery in the xChemicalxLab. The description of the handles is "they stretch from the top of the door to the base."
+The Handles is scenery in the xChemicalxLab. The description of the handles is "they stretch from the top of the door to the base."
 
-The xHallway is a room. The xHallway is east of the xChemicalxLab. The description of the xHallway is "It's not too different from any room here, just in hallway shape: The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+The Cabinet is an object, fixed in place in the xChemicalxLab. the cabinet is undescribed. The description of the Cabinet is "You just mixed chemicals there. It looks a little different since you're actually bigger than it now."
 
-The xTestxRoom is a room. The xTestxRoom is east of the xHallway. The description of the xTestxRoom is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
+The xBowl is an open, fixed in place container in the xChemicalxLab. The xbowl is undescribed. The printed name of the xBowl is "Bowl". The description of the xBowl is "A Pyrex bowl"
+
+The xShelf is a fixed in place object in the xChemicalxLab. The printed name of the xshelf is "Shelf". The xshelf is undescribed. The description of the xShelf is "The Shelf where the viles of chemicals used to be."
+
+The xBar is a fixed in place object in the xChemicalxlab. the xbar is undescribed. The printed name of the xbar is "Bar". The description of the xbar is "A gray counter tops the shelving unit."
+
+The xSteel Door is a door. The xSteel Door is east of the xChemicalxlab and west of the xHallway. The printed name of the xSteel Door is "Steel Door". The xSteel Door is closed. The description of the xSteel Door is "Just a Steel Door"
+
+The xHallway is a room. The description of the xHallway is "It's not too different from any room here, just in hallway shape: The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+
+The Trash Can is a fixed in place object in the Hallway. The Trash Can is undescribed. The description of the Trash Can is "A Pretty modern looking rubbish bin. Made of metal, like everything else."
+
+The xBigxMetal Door is a door. The xBigxMetal Door is east of the xHallway and west of the xTestxRoom. The xBigxMetal Door is closed. The printed name of the xBigxSteel Door is "Big Steel Door". The description of the xBigxMetal Door is "It's a pretty big door, no matter how big you are."
+
+The xTestxRoom is a room. The description of the xTestxRoom is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
 
 
 Chapter One
