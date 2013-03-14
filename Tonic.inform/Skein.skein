@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x5b73e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x5b73e0" />
+  <activeNode nodeId="node-0x1c3bbf40" />
   <item nodeId="node-0x5b73e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -11,7 +11,7 @@
 You&apos;ve needed extra cash and this science lab was willing to pay good money for you to be a &quot;test bunny&quot;. You took this chemical mixture but it did nothing at first so the scientists left you alone in the test room until later on. After and hour you end up being shrunk to three inches tall. You now realize how serious these scientists are and you must figure out how to get yourself back to normal proportions and escape the lab
 Tonic
 An Interactive Fiction by Brianna Hartner
-Release 1 / Serial number 130312 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Test Room
 Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
@@ -21,9 +21,10 @@ You can see a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1071">NO</temporary>
+    <temporary score="37">NO</temporary>
     <children>
       <child nodeId="node-0x5bd470" />
+      <child nodeId="node-0x155664f0" />
       <child nodeId="node-0x5bb560" />
       <child nodeId="node-0x5bb4f0" />
       <child nodeId="node-0x5bb3a0" />
@@ -472,7 +473,7 @@ You can see a Spatula here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1071">YES</temporary>
+    <temporary score="37">YES</temporary>
     <children>
       <child nodeId="node-0x5bafb0" />
       <child nodeId="node-0x5bae60" />
@@ -486,7 +487,7 @@ You can see a Spatula here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1071">YES</temporary>
+    <temporary score="37">YES</temporary>
     <children>
       <child nodeId="node-0x5b8620" />
     </children>
@@ -502,7 +503,7 @@ You can see a Pair of Tongs here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1071">YES</temporary>
+    <temporary score="37">YES</temporary>
     <children>
       <child nodeId="node-0x5ba290" />
       <child nodeId="node-0x5b8690" />
@@ -1392,9 +1393,10 @@ You can see a Steel Door and a Big Metal Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="37">YES</temporary>
     <children>
       <child nodeId="node-0x5ba990" />
+      <child nodeId="node-0x1c30def0" />
       <child nodeId="node-0x5ba7d0" />
       <child nodeId="node-0x5ba300" />
     </children>
@@ -1590,6 +1592,417 @@ It seems to be locked.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x1c30def0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You will fall off the edge. Gotta go down first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x2522fd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x2522fd80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You will fall off the edge. Gotta go down first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc0cc40" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc0cc40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You will fall off the edge. Gotta go down first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c374140" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c374140">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You will fall off the edge. Gotta go down first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x20eff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20eff0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dust Bunny Hideout
+You&apos;re underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c3b66e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c3b66e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c31f740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c31f740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x252f14a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x252f14a0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+New Perspective
+You&apos;re on the seat of the chair.
+
+You can see a Clamp here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x508d380" />
+    </children>
+  </item>
+  <item nodeId="node-0x508d380">
+    <command xml:space="preserve">take clamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1555c2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1555c2c0">
+    <command xml:space="preserve">combine clmap with tongs</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x155f2830" />
+    </children>
+  </item>
+  <item nodeId="node-0x155f2830">
+    <command xml:space="preserve">combine clamp with tongs</command>
+    <result xml:space="preserve">You fuse together the Clamp and the Pair of Tongs.
+
+You now have a a Clamp Tong Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x9171620" />
+    </children>
+  </item>
+  <item nodeId="node-0x9171620">
+    <command xml:space="preserve">combine clamp tong thing with spatula</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x25269d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x25269d60">
+    <command xml:space="preserve">combine clamp tong thingy with spatula</command>
+    <result xml:space="preserve">You fuse together the Clamp Tong Thingy and the Spatula.
+
+You now have a an Arm Thingy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xc494de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc494de0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Shady Glades
+You&apos;re underneath the chair blocking out those harshly bright lights providing a cooling shade. The Open Test Room is to the west of you and the chair is directly above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x91d7af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x91d7af0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Test Room
+Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door.
+
+You can see a Big Metal Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc5e4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc5e4b0">
+    <command xml:space="preserve">open big metal door</command>
+    <result xml:space="preserve">You have an arm thingy to unlock the door
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c3e8be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c3e8be0">
+    <command xml:space="preserve">open big metal door with arm thingy</command>
+    <result xml:space="preserve">You unlock the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c323210" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c323210">
+    <command xml:space="preserve">open the big metal door</command>
+    <result xml:space="preserve">You open the Big Metal Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x91d5200" />
+    </children>
+  </item>
+  <item nodeId="node-0x91d5200">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see an Exit Door, a Steel Door, a Big Metal Door and an Intern here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c36a370" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c36a370">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I don&apos;t think its a good idea to leave in your current condition.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xc43e340" />
+    </children>
+  </item>
+  <item nodeId="node-0xc43e340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I don&apos;t think you need to go this way to solve you&apos;re current problem. There&apos;s probably loads of scientists over there who wouldn&apos;t think twice about locking you in a box. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x91e0250" />
+    </children>
+  </item>
+  <item nodeId="node-0x91e0250">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You have the arm thingy for a reason.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x25258470" />
+    </children>
+  </item>
+  <item nodeId="node-0x25258470">
+    <command xml:space="preserve">open steel door with arm thingy</command>
+    <result xml:space="preserve">You unlock the Steel Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x155a8a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x155a8a20">
+    <command xml:space="preserve">open steel door</command>
+    <result xml:space="preserve">You open the Steel Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x91cdc80" />
+    </children>
+  </item>
+  <item nodeId="node-0x91cdc80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Chemical Lab
+It&apos;s a room taken right out of a science fiction movie. There&apos;s a bar to the north with a shelf above it. There&apos;s a Cabinent to the west. There&apos;s a refrigerator to the south.
+
+You can see a Steel Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x9172af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9172af0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Steel Door, a Big Metal Door, an Exit Door and an Intern here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x155ad160" />
+    </children>
+  </item>
+  <item nodeId="node-0x155ad160">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Base of the Bin
+A giant metal trash can stands before you. I really wouldn&apos;t suggest climbing up and going into it. Who know&apos;s what kind of toxic waste is thrown in there….
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x92d5cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x92d5cf0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Rodent&apos;s Paradise
+Yuck. I can&apos;t believe you are actually in here. Well, I guess it doesn&apos;t smell that bad. If you&apos;re willing to get your hands dirty, feel free to rummage through this junk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x2521b470" />
+    </children>
+  </item>
+  <item nodeId="node-0x2521b470">
+    <command xml:space="preserve">x trash</command>
+    <result xml:space="preserve">There&apos;s a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x252a7480" />
+    </children>
+  </item>
+  <item nodeId="node-0x252a7480">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Base of the Bin
+A giant metal trash can stands before you. I really wouldn&apos;t suggest climbing up and going into it. Who know&apos;s what kind of toxic waste is thrown in there….
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c3bbf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c3bbf40">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Hallway
+It&apos;s not too different from the Test Room, just in hallway shape: There&apos;s those bright white walls and cold tile floor. The Test Room is to the East. There&apos;s a door to the west that says &quot;Chemical Lab&quot; on it and to the south a door that says &quot;Exit&quot;. The Hallway continues to the north, past a trash can in the Northeast corner.
+
+You can see a Steel Door, a Big Metal Door, an Exit Door and an Intern here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
   </item>
   <item nodeId="node-0x5ba990">
     <command xml:space="preserve">d</command>
@@ -2756,6 +3169,15 @@ Pitch white walls surround you. There is a tinted window on the north side of th
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="71">YES</temporary>
+  </item>
+  <item nodeId="node-0x155664f0">
+    <command xml:space="preserve">lift</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
   <item nodeId="node-0x5bd470">
     <command xml:space="preserve">w</command>

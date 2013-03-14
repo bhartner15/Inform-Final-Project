@@ -9,6 +9,7 @@ Rule for deciding whether all includes something: it does not.
 Rule for printing a parser error when the latest parser error is the nothing to do error:
 	say "Hey maybe you should actually TRY and play the game, you little cheater. K, thanks." instead
 
+
 Book One [When Player is Small]
 
 The description of the player is "You're dressed casually. You've got a green t-shirt on and black shorts. Oh and you're also only 3 inches tall." [Remember to change player description after you become big]
@@ -26,7 +27,7 @@ The floor is a backdrop. The floor is in the Test Room. The floor is in the Hall
 
 The Dust Bunny Hideout is a room. The Dust Bunny Hideout is south of the Test Room. The description of the Dust Bunny Hideout is "You're underneath the table revealing a farm of dust bunnies. The Open Test room is north of you and the table is directly above you."
 
-The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is undescribed. The description of the dust bunnies is "They are big and gray and scary, oh but wait. What's that? It looks like a spatula!"
+The Dust Bunnies is an object in the Dust Bunny Hideout. The Dust Bunnies is undescribed. The description of the dust bunnies is "They are big and gray and scary."
 
 The Spatula is a thing in the Dust Bunny Hideout. The description of the Spatula is "Not what you would normally find in you're kitchen. This Spatula is definitely more suited for a science lab."
 
@@ -44,7 +45,7 @@ The New Perspective is a room. The New Perspective is up of the Shady Glades. Th
 
 The Chair is a backdrop. The Chair is in the Test Room. The Chair is in the Shady Glades. The Chair is in the New Perspective. The description of the Chair is "It's cold hard plastic. Not very accomidating on the scientist's part."
 
-The Clamp is a thing in the New Perspective. The description of the Clamp is "I wonder what this could be used for!"
+The Clamp is a thing in the New Perspective. The description of the Clamp is "Like it's original use, you can use this to hold this together. "
 
 The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the Hallway.  The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
@@ -178,27 +179,31 @@ The Grayscale is a room. The Grayscale is up of the Tiled Wall. The description 
 
 The Edge is a room. The Edge is up of the Grayscale. The description of the Edge is "You're on top of the shelf and a variety of chemicals stand before you."
 
-The Chemicals is an object. The Chemicals is undescribed. The description of the Chemicals is "There are many different viles and containers. The labels say that they are: Sugar, Iodine, Sodium, Mercury, Potassium, Magnesium, Spice, Water, Chemical X, and Propane."
+The Chemicals is an object. The Chemicals is undescribed. The description of the Chemicals is "There are many different viles and containers. The labels say that they are: Sugar,  Potassium, Spice, and Chemical X."
 
 The Sugar is an object in the Edge. The Sugar is undescribed. The description of the Sugar is "Sugar makes you hyper. Maybe sugar will make you're cell division hyper making you grow faster? Eh, maybe not."
 
-The Mercury is an edible object. The Mercury is in the Cool Zone. 
+The Mercury is an edible object. The Mercury is in the Cool Zone. The description of the mercury is "Not the planet FYI"
 
-The Potassium is an edible object. the Potassium is in the Edge. The Potassium is undescribed.
+The Potassium is an edible object. the Potassium is in the Edge. The Potassium is undescribed. The description of the Potassium is "You can get a good source of Potassium in bananas."
 
-The Magnesium is an edible object. The magnesium is in the Cool Zone. 
+The Magnesium is an edible object. The magnesium is in the Cool Zone. The description of the Magnesium is "Magnesium… the twelfth element of the Periodic Table?"
 
-The Spice is an edible object in the Edge. The Spice is undescribed.
+The Spice is an edible object in the Edge. The Spice is undescribed. The description of the spice is "Um… Cinnamon?"
 
-The Chemical X is an edible object in the Edge. The Chemical X is undescribed.
-
+The Chemical X is an edible object in the Edge. The Chemical X is undescribed. The description of the Chemical X is "Black Guck in a jar. Hey it probably works for something!"
 
 The Cool Zone is a Room. The description of the Cool Zone is "Brrr. It's cold in here."
 
+The Base Camp is a Room. The Base Camp is west of the Chemical Lab. The description of the Base Camp is "The cabinent stretches above you."
 
-The Whitescale is a Room.
+The Whitescale is a Room. The Whitescale is up of the Base Camp. The description of the Whitescale is "You're on top of the cabinent."
 
-The Bowl is an open, fixed in place container in the Whitescale. 
+The Bowl is an open, fixed in place container in the Whitescale. The description of the Bowl is "A Pyrex bowl - perfect for mixing things (*cough *cough *chemicals) in"
+
+The drain is a backdrop. The drain is in the Whitescale. The drain is in the Chemical Lab. The description of the drain is "Looks like a quick and easy getaway for any type of slug crocodile mutant."
+
+The Water is in the Cool Zone. The Water is undescribed. The description of the water is "Would be great if you were VERY thirsty."
 
 Chapter Four [Instead or something]
 
@@ -287,7 +292,34 @@ Instead of going west when player is in Hallway:
 			say "You can now open the door since the handle has been turned.";
 	if the Steel Door is open:
 		continue the action.
-		
+
+Instead of going east when player is in Whitescale:
+	say "Remember. You are ON TOP OF the cabinet"
+
+Instead of going north when player is in the Top of the World:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going east when player is in the Top of the World:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going south when player is in the Top of the World:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going west when player is in the Top of the World:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going north when player is in the New Perspective:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going east when player is in the New Perspective:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going south when player is in the New Perspective:
+	say "You will fall off the edge. Gotta go down first."
+
+Instead of going west when player is in the New Perspective:
+	say "You will fall off the edge. Gotta go down first."
+
 Chapter Five [Key for Chemicals]
 
 
@@ -317,7 +349,7 @@ Understand "mix chemicals" and "mix things in bowl" as mixing.
 
 [The line below tells Inform7 that mixing produces something.]
 The mixing action has an object called the Substance.
-[
+
 [Check the list of things in bowl against a table that tells you what you get when those ingredients are mixed.
 Setting up code and a table for results of mixing. 
 The code:
@@ -326,38 +358,160 @@ The code:
 • If the list of things matches an entry in this Table of Recipes:
 • those ingredients will be removed from play 
 • and their result will now be in the bowl.]
+
 Setting action variables for mixing: 
-let X be a list of objects; [creating a, for now, blank list.]
-repeat with item running through things in Bowl: [adding the things currently in the bowl to the list we just created.]
-add item to X;
-sort X; [sorting our list A to Z]
-repeat through the Table of Recipes: [looking in the Table we created]
-let Y be the ingredient list entry; [looking at an ingredients entry]
-sort Y; [A to Z sorting of the ingredients in an entry]
-if X is Y: [do the items in the bowl match an ingredients entry?]
-now the Substance is the result entry.  [If so, the player now has the matching result (that we called Substance.)]
+	let X be a list of objects;
+	repeat with item running through things in Bowl:
+		add item to X;
+	sort X; [sorting our list A to Z]
+	repeat through the Table of Potions: [looking in the Table we created]
+		let Y be the chemical list entry; [looking at an ingredients entry]
+		sort Y; [A to Z sorting of the ingredients in an entry]
+		if X is Y: [do the items in the bowl match an ingredients entry?]
+			now the Substance is the result entry.  [If so, the player now has the matching result (that we called Substance.)]
 
 [if there is no match for the mix of ingredients in the bowl, there is no result for the mixing, so STOP the action]
 Check mixing:
-if Substance is nothing:
-say "You can't combine [list of things in bowl] into anything useful.[line break]Try another combination of ingredients.";
-stop the action.
+	if Substance is nothing:
+		say "You can't combine [list of things in bowl] into anything useful.[line break]Try another combonation of chemicals.";
+		stop the action.
 [If action is not stopped, continue to…]
 Carry out mixing: 
-say "You mix together [list of things in bowl].";
-repeat with item running through things in Bowl: [Since mixing worked, we will one by one remove the ingredients in the bowl...]
-remove item from play;
-move the Substance to the Bowl. [...and move the created result to the bowl.]
-Report mixing:
-say "You now have a [a Substance]." [announce the player's success in making the Substance.]
-[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	
-Table of Recipes
-ingredient list	result   
-{everythingnice, spice, sugar}	Ginger Snap
-{lemon, sugar, egg}	Lemon Bar
-{marshmallow, graham cracker, chocolate}	S'more]
+	say "You mix together [list of things in bowl].";
+	repeat with item running through things in Bowl: [Since mixing worked, we will one by one remove the ingredients in the bowl...]
+		remove item from play;
+		move the Substance to the Bowl. [...and move the created result to the bowl.]
+[Report mixing:
+	say "You now have a [the Substance]." [announce the player's success in making the Substance.]
+[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	]
 
-Book Two [When Player is Normal]
+Table of Potions
+Chemical list	result   
+{sugar, potassium, magnesium}	Color
+{sugar, spice, Chemical X}	Powerpuff Girl
+{Magnesium, Potassium, Chemical X}	Enlarging
+{sugar, potassium, spice}	Bug Eye
+{sugar, potassium, chemical x}	Dog
+{mercury, sugar, chemical x}	Mutant
+{sugar, magnesium, spice}	Geek
+{sugar, magnesium, chemical x}	death
+{potassium, magnesium, spice}	Smell
+{potassium, magnesium, chemical x}	miniscule
+{potassium, spice, chemical x}	death
+{magnesium, spice, chemical x}	bald
+{mercury, sugar, potassium}	death
+{mercury, sugar, magnesium}	death
+{mercury, sugar, spice}	death
+{mercury, potassium, magnesium}	death
+{mercury, potassium, spice}	death
+{mercury, potassium, chemical x}	death
+{mercury, magnesium, spice}	death
+{mercury, magnesium, chemical x}	death
+{mercury, spice, chemical x}	death
+
+Book Two [Potions]
+
+Understand "drinking" as eating.
+Understand "drink" as eating.
+	
+After eating the Color:
+	say "You look down at your skin. You're tan you've been working on for ages starts to change colors. First it's purple, then it's green, then blue! You're a rainbow! Maybe you want to try another potion.";
+	now the printed name of Color is "Color Potion".
+
+After eating the Powerpuff Girl:
+	say "You're tingling. Then POOF! You take out your pocket mirror and a weird confused look arrises on your face. You're a… a….. a Powerpuff Girl!!! You're dressed in the typical character outfit: a small square dress with a black horizontal stripe in the middle. You are the new purple powerpuff girl, judging by your purple irises and purple outfit. I mean, who wants to be a regular sized human when you can be a powerpuff girl!! I bet you can fly!!.";
+	now the printed name of the powerpuff girl is "Powerpuff Girl Potion";
+	now the description of the player is "The forth powerpuff girl: Butterfly - the purple powerpuff girl.".
+
+Understand "Fly" as flying.
+Flying is an action applying to nothing
+
+The pocket mirror is an object. The pocket mirror is in the player's inventory. The description of the pocket mirror is "You got it a long time ago and can't seem to go any where without it. Strange."
+
+After flying:
+	say "Wow! You can really fly!! You just sped across the room in mid air at the speed of light! [line break] You notice a window to the west. Too small for any regular sized person to fit through, but a Powerpuff Girl could 'escape (to the) west' !"
+
+Understand "fly out" as flying out the window.
+Understand "flying out" as flying out the window.
+Understand "fly out the window" as flying out the window. 
+Flying out the window is an action applying to nothing. 
+
+The Glass Window is scenery in the Whitescale. The description of the Glass window is "Freedom. Right there. No regular sized human could fit through, and why would a miniture human want to when his goal is to become bigger?"
+
+After flying out the window:
+		say "You fly out the window and into the freedom of the sky. You live the rest of your life peacefully as a Powerpuff Girl.";
+		end the game in victory.
+
+
+After eating the Enlarging:
+	say "First your legs spring out before you, growing from only one and a half inches in length to three and a half feet. Your body then expands to its normal proportion, pushing you off the little Counter. Your arms stretch out from your body. And last, but certainly not least, your puny head swells up like they do in those Air Heads commercials. You look at yourself. You're back to normal size!!!";
+	move the player to xChemicalxLab;
+	remove enlarging from play;
+	now the description of the player is "Normal. Just how you like it."
+	
+
+After eating the Bug Eye:
+	say "You feel no changes, but that doesn't mean you don't SEE any. Everything is zoomed in. You reach up and feel your face. Your eyeballs are huge!! It's like you have Fly's Eyes!";
+	now the printed name of the bug eye is "Bug Eye Potion";
+	now the description of the player is "Fly-like. Not good.".
+
+	
+After eating the Dog:
+	say "You're not blind.. but there's no color… anywhere!! It's like you're in one of those old black and white tv shows!";
+	now the printed name of dog is "Dog's Vision Posion";
+	now the description of the player is "the same…. but your color blind.".
+
+	
+After eating the Mutant:
+	say "Oh my god. I guess Marvel was right; there are such thing as mutants…. and you're one of them!!!! But, is this necessarily a bad thing? With your slimy exterior and love for sewer, you could get out of here via any gutter you please. [line break] You see an an entcing drain in the middle of the Chemical Lab. ";
+	now the description of the player is "Mutant Slug Crocodile Hybrid…. I think…";
+	now the printed name of the mutant is "Mutant Potion.".
+
+Instead of examining the drain when player is in Whitescale:
+	say "It's too far away. Go get a closer look via the way you got up here"
+
+After examining the drain when player is in the Chemical lab:
+	say "Wouldn't it be easy just to 'escape through the drain'?".
+	
+Understand "escape through the drain" as hophophoping.
+Understand "escaping though the drain" as hophophoping.
+Understand "escape through drain" as hophophoping.
+Understand "escaping through drain" as hophophoping.
+Hophophoping is an action applying to nothing.
+	
+After hophophoping:
+	say "You escape through the drain and live the rest of your life out as a mutant slug crocodile hybrid. You still haven't decided whether or not to be a good monster or a terrible villain. But hey, at least your happy. - Plus, with your terrible crocodile claws and terribly forceful powers, you got your revenge on the scientists by gathering an army of the sewer dewellers to come up from the depths of the drains to rain terror onto the science lab. They will never be turning anyone into monopoly size players ever again.";
+	end the game in victory.  
+	
+	
+After eating the Harry:
+	say "At first: Nothing. And then in an instant, you're perfectly cut hair lengthened all the way to your feet. You're Cousin It! (or was that joke before your time? eh maybe)";
+	now the description of the player is "Your hair stretches to your feet.";
+	now the printed name of the harry is "Extensive Hair Growth Potion".
+	
+After eating the Smell:
+	say "It wasn't bad at first, but now it's overwhellming. You smell absolutely terrible! Like something that has been soaked in rotten eggs, pumbled with fish, and then sprayed at by a skunk!";
+	now the description of the player is "You seem normal, if you are wearing a gas mask.";
+	now the printed name of the smell is "Smelly Potion.".
+	
+After eating the miniscule:
+	say "Did you fix your problem? No. You made it worse. You shrunk even smaller!!! Being as big as an ant, you thought that this was it since you could no longer pick up the viles with your ity bity hands. Luckil, this potion wasn't so strong and only lasted a minute or so. You are now only somewhat small…. as you were before.";
+	now the printed name of the miniscule is "Temporary Shrink Potion".
+
+After eating the bald:
+	say "Your perfectly cut hair falls from your head down to the floor. You shed a tear silently for that work of art that once sat on your head. Oh well, what's done is done.";
+	now the printed name of the bald is "Lose your Perfectly Grown Hair Potion.";
+	now the description of the player is "Bald. Wow does your head reflect the light.".
+	
+After eating the death:
+	say "Yikes! Chemical Reaction gone wrong! I guess that was the risk in coming here anyway.";
+	end the game in death.
+
+
+
+Book Three [When Player is Normal]
+
+The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". 
 
 Chapter One
 
@@ -365,7 +519,7 @@ Chapter Two
 
 Chapter Three
 
-Book Three [Notes]
+Book Four [Notes]
 
 [NOTES:
 	"test mixing potions" by Mary Kiang
