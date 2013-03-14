@@ -109,8 +109,34 @@ Understand "talk to scientist" as talking.
 Talking is an action applying to nothing.
 
 After talking:
-	say "You caught the attention of the scientist and he recognized you. Well, not cause of your face but probably because of your noticable size. He picks you up, takes you away, and locks you in a dark box. There's no way out now.";
-	end the game in death.
+	if player is in Hallway:
+		say "You caught the attention of the scientist and he recognized you. Well, not cause of your face but probably because of your noticable size. He picks you up, takes you away, and locks you in a dark box. There's no way out now.";
+		end the game in death;
+	if player is not in Hallway:
+		if player is in xHallway:
+			if player is wearing lab coat:
+				if talking for first time:
+					say "The Scientist looks up from his phone and scans you with his eye. You are worried that he will notice you, but all your worries wash away when he looks and you and smiles";
+				otherwise:
+					say "He says 'Can I help you?' - For help talking say 'Help'. ";
+			if player is not wearing lab coat:
+				say "What have you just done. The scientists looks confused when he sees you. He knows you don't belong. It's like he doesn't know who you are at first, but then his eyes light up. 'You!' he shouts as he reaches into his pocket. Before you can get away, he tasers you to the ground. You wake up in a dark room with no way out. The scientists made sure to keep you locked up for the rest of your life as a science experiment. ";
+				end the game in death;
+		if player is not in xHallway:
+			say "Why are you talking to yourself?".
+
+Understand "help" as helping.
+Helping is an action applying to nothing. 
+
+After helping:
+	if player is in xHallway:
+		say "Talking to the Scientist  [line break] How do I ______? [line break] Can I have _____? [line break] How are you?";
+	otherwise:
+		say "Life is tough, but you must be tougher." 
+		
+[rest of talking with scientist is in Book Three]
+
+
 
 Chapter Two [Key Table]
 
@@ -573,7 +599,42 @@ The xTable is a fixed in place object in the xTestxRoom. The printed name of the
 
 The TintedxWindow is scenery in the xTestxRoom. The printed name of the TintedxWindow is "Tinted Window". The description of the TintedxWindow is  "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
 
-The ExitxDoor is a door. The ExitxDoor is south of the xHallway. The printed name of the ExitxDoor is "Exit Door." The description of the ExitxDoor is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
+The ExitxDoor is a door. The ExitxDoor is locked. The ExitxDoor is south of the xHallway. The printed name of the ExitxDoor is "Exit Door." The description of the ExitxDoor is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
+
+The xScientist is a man. The printed name of the xscientist is "Scientist". The xScientist is in the xHallway. The description of the xscientist is "He's just leaning against the wall, still playing around with his phone. Wow this is a long break."
+
+After examining xscientist for the first time:
+	if player is wearing the lab coat:
+		say "With your bright white lab coar, you look just like him! You're incognito.";
+	if player is not wearing the lab coat:
+		say "I'm not sure if you're aware, but you are no longer unnoticable like when you were small."
+
+Understand "how do I open the door" as giggling.
+Giggling is an action applying to nothing. 
+Understand "Can I have the id" as yoddling.
+Yoddling is an action applying to nothing. 
+Understand "How are you" as cowboying.
+Cowboying is an action applying to nothing.
+
+Understand "how do I" as beatboxing.
+Beatboxing is an action applying to one visible thing. 
+Understand "can i have" as boxing.
+Boxing is an action applying to one visible thing. 
+
+After giggling:
+	if player is in xHallway:
+		say "The scientists says 'Oh, you need an id to unlock it.'";
+	otherwise:
+		say "I don't know."
+
+After yoddling:
+	if player is in xHallway:
+		say "The scientist digs into his pocket and offers you the id.";
+		[CHANGE IT SO THAT YOU HAVE TO GET THE KEY IN THE TRASH]
+	otherwise:
+		say "No.. Go get it yourself.".
+	
+The id unlocks the ExitxDoor. The description of the id is "There's a barcode on it, a picture, and the name COOPER is labeled under the picture."
 
 Book Four [Cheats]
 
