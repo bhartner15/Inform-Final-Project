@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6G60
 
-status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform"
-release to "/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic Materials/Release"
+project folder "/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform"
+release to "/Users/bhartner15/Desktop/Inform Final Project/Tonic Materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Tonic.zblorb"
-storyfile "/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Build/output.z8" include
-ifiction "/Users/bhartner15/Desktop/Tonic Game/Tonic/Tonic.inform/Metadata.iFiction" include
+storyfile "/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Build/output.z8" include
+ifiction "/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
 
