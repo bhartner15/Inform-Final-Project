@@ -25,49 +25,49 @@
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>141</integer>
+        <key>Line</key><integer>145</integer>
         <key>Title</key><string>Chapter Two</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>194</integer>
+        <key>Line</key><integer>198</integer>
         <key>Title</key><string>Chapter Three</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>246</integer>
+        <key>Line</key><integer>250</integer>
         <key>Title</key><string>Chapter Four</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>376</integer>
+        <key>Line</key><integer>386</integer>
         <key>Title</key><string>Chapter Five</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>465</integer>
+        <key>Line</key><integer>471</integer>
         <key>Title</key><string>Book Two</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>565</integer>
+        <key>Line</key><integer>605</integer>
         <key>Title</key><string>Book Three</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>/Users/bhartner15/Desktop/Inform Final Project/Tonic.inform/Source/story.ni</string>
-        <key>Line</key><integer>639</integer>
+        <key>Line</key><integer>749</integer>
         <key>Title</key><string>Book Four</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>

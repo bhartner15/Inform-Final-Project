@@ -49,9 +49,9 @@ The Clamp is a thing in the New Perspective. The description of the Clamp is "Li
 
 The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the Hallway.  The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
-The Arm Thingy unlocks the Big Metal Door and the Steel Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
+The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is "A Spatula, A Clamp, and a pair of tongs. Never thought they'd go together - but it seems to be effective!" 
 
-The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a Trash Bin in the Northeast corner."
 
 The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal trash can stands before you. I really wouldn't suggest climbing up and going into it. Who know's what kind of toxic waste is thrown in there…."
 
@@ -68,10 +68,10 @@ Instead of examining the Piece of Paper:
 	if the Piece of Paper is closed:
 		say "Seems to be all crinkled up in a ball.";
 	otherwise:
-		say "It seems to have writing on it:
-		ENLARGING CHEMICAL COMBONATION
-		Chemical X
-		Potassium
+		say "It seems to have writing on it: [line break]
+		ENLARGING CHEMICAL COMBONATION [line break]
+		Chemical X [line break]
+		Potassium [line break]
 		Mercury".		
 The Wad of Tape is an object. The Wad of Tape is in Rodent's Paradise. The Wad of Tape is undescribed. The description of the wad of tape is "Normal Clear Tape with some hairs attached to it. gross…".
 The hairs is an object in Rodent's Paradise. The hairs is undescribed. The description of the hairs is "Black strands of glory."
@@ -95,32 +95,36 @@ Get a girlfriend
 
 Get a life……"
 
-The Exit Door is a door. The Exit Door is south of the hallway and north of the Parking Lot. The description of the exit door is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
+The Front Door is a door. The Front Door is south of the hallway and north of the Parking Lot. The description of the Front door is "You remember walking through those doors when you arrived. Obviously, this is the front door."
 
 The Parking Lot is a room.
 
-The Scientist is a man. The Scientist is in the Hallway. The description of the scientist is "He's just leaning against the wall, playing around with his phone. Hmm maybe he's on break. You look up at his face and realise he was the man that gave you the shrinking potion and told you to go into the Test Room. Dr Cooper, I think."
+The tile is scenery in the Hallway. The description of the tile is "Abestos tile."
 
-After examining scientist for the first time:
+The Guy is a man. The Guy is in the Hallway. The description of the Guy is "He's just leaning against the wall, playing around with his phone. Hmm maybe he's on break. You look up at his face and realise he was the man that gave you the shrinking potion and told you to go into the Test Room. Dr Cooper, I think."
+
+After examining the Guy for the first time:
 	say "It's seems like he does not notice you."
 	
 Understand "talk" as talking.
-Understand "talk to scientist" as talking.
 Talking is an action applying to nothing.
+Understand "talk to guy" as talking.
+Understand "talk to scientist" as talking
+
 
 After talking:
 	if player is in Hallway:
-		say "You caught the attention of the scientist and he recognized you. Well, not cause of your face but probably because of your noticable size. He picks you up, takes you away, and locks you in a dark box. There's no way out now.";
+		say "You caught the attention of the guy, who turned out to be a scientist, and he recognized you. Well, not cause of your face but probably because of your noticable size. He picks you up, takes you away, and locks you in a dark box. There's no way out now.";
 		end the game in death;
 	if player is not in Hallway:
 		if player is in xHallway:
 			if player is wearing lab coat:
 				if talking for first time:
-					say "The Scientist looks up from his phone and scans you with his eye. You are worried that he will notice you, but all your worries wash away when he looks and you and smiles";
+					say "The Scientist looks up from his phone and scans you with his eye. You are worried that he will notice you, but all your worries wash away when he looks at you and smiles. He says 'Can I help you?' - For help talking say 'Help'. ";
 				otherwise:
 					say "He says 'Can I help you?' - For help talking say 'Help'. ";
 			if player is not wearing lab coat:
-				say "What have you just done. The scientists looks confused when he sees you. He knows you don't belong. It's like he doesn't know who you are at first, but then his eyes light up. 'You!' he shouts as he reaches into his pocket. Before you can get away, he tasers you to the ground. You wake up in a dark room with no way out. The scientists made sure to keep you locked up for the rest of your life as a science experiment. ";
+				say "What have you just done. The scientist looks confused when he sees you. He knows you don't belong. It's like he doesn't know who you are at first, but then his eyes light up. 'You!' he shouts as he reaches into his pocket. Before you can get away, he tasers you to the ground. You wake up in a dark room with no way out. The scientists made sure to keep you locked up for the rest of your life as a science experiment. ";
 				end the game in death;
 		if player is not in xHallway:
 			say "Why are you talking to yourself?".
@@ -130,7 +134,7 @@ Helping is an action applying to nothing.
 
 After helping:
 	if player is in xHallway:
-		say "Talking to the Scientist  [line break] How do I ______? [line break] Can I have _____? [line break] How are you?";
+		say "Talking to the Scientist  [line break] How do I ______ [line break] How do I get _____ [line break] How are you";
 	otherwise:
 		say "Life is tough, but you must be tougher." 
 		
@@ -193,21 +197,21 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 
 Chapter Three [Chemical Lab]
 
-The Steel Door is a door. The Steel door is locked. The Steel Door is west of the Hallway and east of the Chemical Lab. The description of the Steel Door is "A steel door with a sign that says 'Chemical Lab'."
+The Steel Door is an open door. The Steel Door is west of the Hallway and east of the Chemical Lab. The description of the Steel Door is "A steel door with a sign that says 'Chemical Lab'."
 
-The Chemical Lab is a room. The description of the Chemical Lab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a refrigerator to the south."
+The Chemical Lab is a room. The description of the Chemical Lab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinet to the west. There's a refrigerator to the south."
 
-The Bar is a backdrop. The Bar is in the Chemical Lab. The Bar is in the Tiled Wall. The Bar is in the Grayscale. The description of the Bar is "Made of gray stone. Nothing that special"
+The Bar is a backdrop. The Bar is in the Chemical Lab. The Bar is in the Tiled Wall. The Bar is in the Grayscale. The bar is in the xChemicalxLab. The description of the Bar is "Made of gray stone. Nothing that special"
 
-The Shelf is a backdrop in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
+The Shelf is a backdrop in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the xChemicalxLab. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
 
-The Cabinent is a backdrop in the Chemical Lab.
+The Cabinet is a backdrop in the Chemical Lab. The Cabinet is in the xChemicalxLab. The description of the Cabinet is "It's coated in white and seems to have something on top of it. You can't tell from here though due to your insignificant height."
 
-The refrigerator is a backdrop in the Chemical Lab. 
+The refrigerator is a backdrop in the Chemical Lab. The refrigerator is in the xChemicalxLab. The description of the refrigerator is "Very modern looking and luckily the handles go from the base to the top so you can open it at any height."
 
 The Tiled Wall is a room. The Tiled Wall is north of the Chemical Lab. The description of the Tiled Wall is "Tiles stretch out in front of you up to the Bar. The Bar is above you. Wanna go up?"
 
-The tiles is an object. The tiles is undescribed. The description of the tiles is "normal stone.".
+The tiles is an object in the tiled wall. The tiles is undescribed. The description of the tiles is "normal stone.".
 Instead of taking the tiles:
 	say "It's attached to the wall. Not happening today."
 
@@ -215,7 +219,7 @@ The Grayscale is a room. The Grayscale is up of the Tiled Wall. The description 
 
 The Edge is a room. The Edge is up of the Grayscale. The description of the Edge is "You're on top of the shelf and a variety of chemicals stand before you."
 
-The Chemicals is an object. The Chemicals is undescribed. The description of the Chemicals is "There are many different viles and containers. The labels say that they are: Sugar,  Potassium, Spice, and Chemical X."
+The Chemicals is an object in the edge. The Chemicals is undescribed. The description of the Chemicals is "There are many different viles and containers. The labels say that they are: Sugar,  Potassium, Spice, and Chemical X."
 
 The Sugar is an object in the Edge. The Sugar is undescribed. The description of the Sugar is "Sugar makes you hyper. Maybe sugar will make you're cell division hyper making you grow faster? Eh, maybe not."
 
@@ -231,11 +235,11 @@ The Chemical X is an edible object in the Edge. The Chemical X is undescribed. T
 
 The Cool Zone is a Room. The description of the Cool Zone is "Brrr. It's cold in here."
 
-The Base Camp is a Room. The Base Camp is west of the Chemical Lab. The description of the Base Camp is "The cabinent stretches above you."
+The Base Camp is a Room. The Base Camp is west of the Chemical Lab. The description of the Base Camp is "The cabinet stretches above you."
 
 The Whitescale is a Room. The Whitescale is up of the Base Camp. The description of the Whitescale is "You're on top of the cabinent."
 
-The Bowl is an open, fixed in place container in the Whitescale. The description of the Bowl is "A Pyrex bowl - perfect for mixing things (*cough *cough *chemicals) in"
+The Bowl is a not openable, fixed in place container in the Whitescale. The description of the Bowl is "A Pyrex bowl - perfect for mixing things (*cough *cough *chemicals) in"
 
 The drain is a backdrop. The drain is in the Whitescale. The drain is in the Chemical Lab. The description of the drain is "Looks like a quick and easy getaway for any type of slug crocodile mutant."
 
@@ -277,9 +281,9 @@ Instead of taking the sticky notes:
 	say "Just take the weird sticky noted diary of a scientist.";
 	continue the action.
 
-Instead of opening door:
+Instead of opening the Big Metal door:
 	if player is not carrying Arm Thingy:
-		say "You can't reach the handle. Remember- You're three inches tall!!";
+		say "You can't reach the handle. Remember- You're three inches tall!! Maybe you can make something to help you open the door";
 	otherwise:
 		if the Big Metal Door is locked:
 			say "You have an arm thingy to unlock the door";
@@ -372,27 +376,29 @@ Planking is an action applying to nothing.
 
 Instead of planking:
 	say "Doritos could be made without the powder and taste exactly the same. It was left on because it was decided that the residue left on your fingers was part of the 'Doritos experience'."
+	
+After examining the steel door:
+	say "It looks like it is already open."
+	
+Instead of opening the steel door:
+	say "It's already open."
 
 Chapter Five [Key for Chemicals]
 
 
 [substances that can be made from mixing chemicals]
 
-The Color is an edible thing. The printed name of the color is "Potion". The description is "I wonder what this does."
-The Powerpuff girl is an edible thing. The printed name of the powerpuff girl is "Potion". The description is "I wonder what this does."
-The Enlarging is an edible thing. The printed name of the enlarging is "Potion". The description is "I wonder what this does."
-The Bug Eye is an edible thing. The printed name of the bug eye is "Potion". The description is "I wonder what this does."
-The Dog is an edible thing. The printed name of the dog is "Potion". The description is "I wonder what this does."
-The Mutant is an edible thing. The printed name of the mutant is "Potion". The description is "I wonder what this does."
-The geek is an edible thing. The printed name of the geek is "Potion". The description is "I wonder what this does."
-The Harry is an edible thing. The printed name of the harry is "Potion". The description is "I wonder what this does."
-The Smell is an edible thing. The printed name of the smell is "Potion". The description is "I wonder what this does."
-The Death is an edible thing. The printed name of the death is "Potion". The description is "I wonder what this does."
-The miniscule is an edible thing. The printed name of the miniscule is "Potion". The description is "I wonder what this does."
-The elephant is an edible thing. The printed name of the elephant is "Potion". The description is "I wonder what this does."
-The Bald is an edible thing. The printed name of the bald is "Potion". The description is "I wonder what this does."
-The Thrist is an edible thing. The printed name of the thirst is "Potion". The description is "I wonder what this does."
-The deaf is an edible thing. The printed name of the deaf is "Potion". The description is "I wonder what this does."
+The Color Potion A is an edible thing. The printed name of the color is "Potion A". The description is "I wonder what this does."
+The Powerpuff girl Potion B is an edible thing. The printed name of the powerpuff girl is "Potion B". The description is "I wonder what this does."
+The Enlarging Potion C is an edible thing. The printed name of the enlarging is "Potion C". The description is "I wonder what this does."
+The Bug Eye Potion D is an edible thing. The printed name of the bug eye is "Potion D". The description is "I wonder what this does."
+The Dog Potion E is an edible thing. The printed name of the dog is "Potion E". The description is "I wonder what this does."
+The Mutant Potion F is an edible thing. The printed name of the mutant is "Potion F". The description is "I wonder what this does."
+The Harry Potion G is an edible thing. The printed name of the harry is "Potion G". The description is "I wonder what this does."
+The Smell Potion H is an edible thing. The printed name of the smell is "Potion H". The description is "I wonder what this does."
+The Death Potion I is an edible thing. The printed name of the death is "Potion I". The description is "I wonder what this does."
+The miniscule Potion J is an edible thing. The printed name of the miniscule is "Potion J". The description is "I wonder what this does."
+The Bald Potion K is an edible thing. The printed name of the bald is "Potion K". The description is "I wonder what this does."
 
 
 [The mixing action]
@@ -432,11 +438,12 @@ Check mixing:
 Carry out mixing: 
 	say "You mix together [list of things in bowl].";
 	repeat with item running through things in Bowl: [Since mixing worked, we will one by one remove the ingredients in the bowl...]
-		remove item from play;
+		move item to player;
 		move the Substance to the Bowl. [...and move the created result to the bowl.]
-[Report mixing:
-	say "You now have a [the Substance]." [announce the player's success in making the Substance.]
-[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	]
+Report mixing:
+	say "You now have a [Substance]." [announce the player's success in making the Substance.]
+[The table of recipes and resulting Substances. NOTE: For each row of the table, there is a single tab between the ingredient list entries and their corresponding result.]	
+
 
 Table of Potions
 Chemical list	result   
@@ -446,10 +453,10 @@ Chemical list	result
 {sugar, potassium, spice}	Bug Eye
 {sugar, potassium, chemical x}	Dog
 {mercury, sugar, chemical x}	Mutant
-{sugar, magnesium, spice}	Geek
-{sugar, magnesium, chemical x}	death
+{sugar, magnesium, spice}	death
+{sugar, magnesium, chemical x}	harry
 {potassium, magnesium, spice}	Smell
-{potassium, magnesium, chemical x}	miniscule
+{potassium, mercury, chemical x}	miniscule
 {potassium, spice, chemical x}	death
 {magnesium, spice, chemical x}	bald
 {mercury, sugar, potassium}	death
@@ -457,12 +464,45 @@ Chemical list	result
 {mercury, sugar, spice}	death
 {mercury, potassium, magnesium}	death
 {mercury, potassium, spice}	death
-{mercury, potassium, chemical x}	death
 {mercury, magnesium, spice}	death
 {mercury, magnesium, chemical x}	death
 {mercury, spice, chemical x}	death
 
 Book Two [Potions]
+
+Instead of drinking Potion A:
+	try eating Potion A.
+	
+Instead of drinking Potion B:
+	try eating Potion B.
+	
+Instead of drinking Potion C:
+	try eating Potion C.
+	
+Instead of drinking Potion D:
+	try eating Potion D.
+	
+Instead of drinking Potion E:
+	try eating Potion E.
+
+Instead of drinking Potion F:
+	try eating Potion F.
+
+Instead of drinking Potion G:
+	try eating Potion G. 
+	
+Instead of drinking Potion H:
+	try eating Potion H.
+	
+Instead of drinking Potion I:
+	try eating Potion I.
+	
+Instead of drinking Potion J:
+	try eating Potion J.
+	
+Instead of drinking Potion K:
+	try eating Potion K.  
+
 
 Understand "drinking" as eating.
 Understand "drink" as eating.
@@ -482,7 +522,7 @@ Flying is an action applying to nothing
 The pocket mirror is an object. The pocket mirror is in the inventory. The description of the pocket mirror is "You got it a long time ago and can't seem to go any where without it. Strange."
 
 After flying:
-	say "Wow! You can really fly!! You just sped across the room in mid air at the speed of light! [line break] You notice a window to the west. Too small for any regular sized person to fit through, but a Powerpuff Girl could 'escape (to the) west' !"
+	say "Wow! You can really fly!! You just sped across the room in mid air at the speed of light! [line break] You notice a window to the west. Too small for any regular sized person to fit through, but a Powerpuff Girl could fly right out it!"
 
 Understand "fly out" as flying out the window.
 Understand "flying out" as flying out the window.
@@ -516,7 +556,7 @@ After eating the Dog:
 
 	
 After eating the Mutant:
-	say "Oh my god. I guess Marvel was right; there are such thing as mutants…. and you're one of them!!!! But, is this necessarily a bad thing? With your slimy exterior and love for sewer, you could get out of here via any gutter you please. [line break] You see an an entcing drain in the middle of the Chemical Lab. ";
+	say "Oh my god. I guess Marvel was right; there are such thing as mutants…. and you're one of them!!!! But, is this necessarily a bad thing? With your slimy exterior and love for sewer, you could get out of here via any gutter you please. [line break] [line break]You see an an entcing drain in the middle of the Chemical Lab. ";
 	now the description of the player is "Mutant Slug Crocodile Hybrid…. I think…";
 	now the printed name of the mutant is "Mutant Potion.".
 
@@ -564,34 +604,39 @@ After eating the death:
 
 Book Three [When Player is Normal]
 
-The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". The description of the xChemicalxLab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a fridge to the south"
+The xChemicalxLab [the first x makes the room original, the second acts as a space to make the room name one word] is a room. The printed name of the xChemicalxLab is "Chemical Lab". The description of the xChemicalxLab is "It's a room taken right out of a science fiction movie. There's a bar to the north with a shelf above it. There's a Cabinent to the west. There's a refrigerator to the south"
 
-The Refridgerator is an openable closed container in the xChemicalxLab. The Refridgerator is fixed in place. The description of the Refridgerator is "Very modern looking with the steel door and long handles."
-
-After examining the Refrigerator for the first time:
-	say "Hmm.. there's something on the top of the refrigerator… it's a.. um.. oh it looks like a lab coat!"
+After examining the Refrigerator:
+	if player is in xChemicalxLab:
+		say "Hmm.. there's something on the top of the refrigerator… it's a.. um.. oh it looks like a lab coat!";
+	otherwise:
+		continue the action.
 
 The lab coat is wearable thing. The lab coat is undescribed. The lab coat is in the xChemicalxLab. The description of the lab coat is "It's the fashion style for scientists near and far."
 
-The Handles is scenery in the xChemicalxLab. The description of the handles is "they stretch from the top of the door to the base."
+The Handles is a backdrop in the xChemicalxLab. The Handles is a backdrop in the Chemical Lab. The description of the handles is "they stretch from the top of the door to the base."
 
-The Cabinet is an object, fixed in place in the xChemicalxLab. the cabinet is undescribed. The description of the Cabinet is "You just mixed chemicals there. It looks a little different since you're actually bigger than it now."
+Instead of examining bowl:
+	if player is in xChemicalxLab:
+		say "A Pyrex bowl";
+	otherwise:
+		continue the action.
 
-The xBowl is an open, fixed in place container in the xChemicalxLab. The xbowl is undescribed. The printed name of the xBowl is "Bowl". The description of the xBowl is "A Pyrex bowl"
+Instead of opening the refrigerator:
+	if player is in xChemicalxLab:
+		say "You've already opened it before. There is no sense in looking at it again.";
+	otherwise:
+		continue the action. 
 
-The xShelf is a fixed in place object in the xChemicalxLab. The printed name of the xshelf is "Shelf". The xshelf is undescribed. The description of the xShelf is "The Shelf where the viles of chemicals used to be."
+The Dull Door is a door. The Dull Door is west of the xHallway and east of the xChemicalxLab. The description of the Dull Door is "You didn't notice it before but the Steel Door turned out to be very Dull looking."
 
-The xBar is a fixed in place object in the xChemicalxlab. the xbar is undescribed. The printed name of the xbar is "Bar". The description of the xbar is "A gray counter tops the shelving unit."
+The xHallway is a room. The printed name of the xHallway is "Hallway". The description of the xHallway is "It's not too different from any room here, just in hallway shape: The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
 
-The xSteel Door is a door. The xSteel Door is east of the xChemicalxlab and west of the xHallway. The printed name of the xSteel Door is "Steel Door". The xSteel Door is closed. The description of the xSteel Door is "Just a Steel Door"
+The Trash Can is a openable, fixed in place container in the xHallway. The Trash Can is closed. The Trash Can is undescribed. The description of the Trash Can is "A Pretty modern looking rubbish bin. Made of metal, like everything else."
 
-The xHallway is a room. The description of the xHallway is "It's not too different from any room here, just in hallway shape: The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a trash can in the Northeast corner."
+The Metallic Door is a door. The Metallic Door is east of the xHallway and west of the xTestxRoom. The Metallic Door is closed. The description of the Metallic Door is "It doesn't seem so big now, but more metallic-y."
 
-The Trash Can is a fixed in place object in the Hallway. The Trash Can is undescribed. The description of the Trash Can is "A Pretty modern looking rubbish bin. Made of metal, like everything else."
-
-The xBigxMetal Door is a door. The xBigxMetal Door is east of the xHallway and west of the xTestxRoom. The xBigxMetal Door is closed. The printed name of the xBigxSteel Door is "Big Steel Door". The description of the xBigxMetal Door is "It's a pretty big door, no matter how big you are."
-
-The xTestxRoom is a room. The description of the xTestxRoom is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
+The xTestxRoom is a room. The description of the xTestxRoom is "There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side."
 
 The xChair is an enterable scenery supporter in the xTestxRoom. The printed name of the xChair is "Chair." The description of the xChair is "It's cold hard plastic. Not very accomidating on the scientist's part"
 
@@ -599,11 +644,11 @@ The xTable is a fixed in place object in the xTestxRoom. The printed name of the
 
 The TintedxWindow is scenery in the xTestxRoom. The printed name of the TintedxWindow is "Tinted Window". The description of the TintedxWindow is  "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
 
-The ExitxDoor is a door. The ExitxDoor is locked. The ExitxDoor is south of the xHallway. The printed name of the ExitxDoor is "Exit Door." The description of the ExitxDoor is "There's a little window, reavealing the freedom of the outside. An Exit sign is posted above the door."
+The Exit Door is a locked door. The Exit Door is south of the xHallway. The description of the Exit Door is "Not only is it the Front Door, but it's also the Exit Door a.k.a. your escape." 
 
-The xScientist is a man. The printed name of the xscientist is "Scientist". The xScientist is in the xHallway. The description of the xscientist is "He's just leaning against the wall, still playing around with his phone. Wow this is a long break."
+The Scientist is a man. The Scientist is in the xHallway. The description of the scientist is "He's just leaning against the wall, still playing around with his phone. Wow this is a long break."
 
-After examining xscientist for the first time:
+After examining scientist:
 	if player is wearing the lab coat:
 		say "With your bright white lab coar, you look just like him! You're incognito.";
 	if player is not wearing the lab coat:
@@ -611,15 +656,30 @@ After examining xscientist for the first time:
 
 Understand "how do I open the door" as giggling.
 Giggling is an action applying to nothing. 
-Understand "Can I have the id" as yoddling.
+Understand "How do I get the id" as yoddling.
+Understand "How do I find the id" as yoddling.
+Understand "How do I get id" as yoddling.
+Understand "How do I get an id" as yoddling.
 Yoddling is an action applying to nothing. 
 Understand "How are you" as cowboying.
 Cowboying is an action applying to nothing.
+Understand "Is this your id" as breakdancing.
+Understand "Is this an id" as breakdancing.
+Breakdancing is an action applying to nothing. 
+
+Understand "Find the key" as finding.
+Finding is an action applying to nothing. 
 
 Understand "how do I" as beatboxing.
 Beatboxing is an action applying to one visible thing. 
-Understand "can i have" as boxing.
+Understand "how do i get" as boxing.
 Boxing is an action applying to one visible thing. 
+
+After breakdancing:
+	if player is in xHallway:
+		say "Yes. You can use that to unlock the door.";
+	otherwise:
+		say "Why was 6 afraid of 7?  Because 7 8 9"
 
 After giggling:
 	if player is in xHallway:
@@ -629,12 +689,62 @@ After giggling:
 
 After yoddling:
 	if player is in xHallway:
-		say "The scientist digs into his pocket and offers you the id.";
-		[CHANGE IT SO THAT YOU HAVE TO GET THE KEY IN THE TRASH]
+		say "The sceintist says, 'You know I'd lend you mine, but I've misplaced it. If you can find it, you can use it.";
 	otherwise:
-		say "No.. Go get it yourself.".
+		say "I'm not sure".
+		
+After finding:
+	say "Just look around for it."
 	
-The id unlocks the ExitxDoor. The description of the id is "There's a barcode on it, a picture, and the name COOPER is labeled under the picture."
+After cowboying:
+	if player is in xHallway:
+		say "The scientist says 'I'm well. Thanks for asking.'";
+	otherwise:
+		say "You're so sweet. I'm great. Thanks for asking."
+		
+After beatboxing:
+	say "I don't know or maybe I didn't understand you."
+	
+After boxing:
+	say "I don't know or maybe I didn't understand you."
+	
+The id unlocks the Exit Door. The id is in the Trash Can. The description of the id is "There's a barcode on it, a picture, and the name COOPER is labeled under the picture."
+
+After opening the Trash Can:
+	say "Yuck."
+	
+Instead of going south when player is in xHallway:
+	if Exit Door is closed:
+		if door is locked:
+			say "There's a door there.";
+		if door is unlocked:
+			say "You hear a ding noise letting you know that the door unlocked, but you still need to open it.";
+	if Exit Door is open:
+		say "You exit the science lab and run to your car. You get in and drive away as far as you can, never returning to the sick lab ever again.";
+		end the game in victory. 
+		
+Instead of opening the Exit Door:
+	if player does not have the id:
+		say "It seems to be locked. Maybe the scientist knows how to open the door.";
+	if player has the id:
+		continue the action.
+
+Instead of going north when player is in xHallway:
+	say "There is no need to go that way."
+
+
+Understand "Look under the table" as hogwarting.
+Hogwarting is an action applying to nothing.
+Understand "Look under the chair" as hogwarting.
+Understand "Look under table" and "Look under chair" as hogwarting.
+Understand "look under refrigerator" and "look under the refrigerator" as hogwarting.
+Understand "Look under bar" and "look under the bar" as hogwarting.
+Understand "look under cabinet" and "look under the cabinet" as hogwarting. 
+
+Instead of hogwarting:
+	say "You see nothing here."
+
+
 
 Book Four [Cheats]
 
@@ -643,4 +753,10 @@ Leafing is an action applying to nothing.
 
 After leafing:
 	move player to Hallway.
+	
+Understand "Hakuna Matata" as charging.
+Charging is an action applying to nothing.
+
+After charging:
+	move player to xChemicalxLab.
 
