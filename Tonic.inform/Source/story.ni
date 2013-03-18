@@ -22,6 +22,25 @@ To say exit list:
 		let place be the room way from the location;
 		if place is a room, say " [way] ".
 
+[[So the staus line doesn't get too crowded, use abbreviations.]
+Rule for printing the name of a direction (called the way) while constructing the status line: 
+	choose row with a heading of the way in the Table of Abbreviation; 
+	say "[shortcut entry]".
+
+Table of Abbreviation 
+heading   shortcut   
+north	"N"   
+northeast	"NE"   
+northwest	"NW"   
+east	"E"   
+southeast	"SE"   
+south	"S"   
+southwest	"SW"   
+west	"W"   
+up	"U"   
+down	"D"   
+inside	"IN"   
+outside	"OUT"] 
 
 Book One [When Player is Small]
 
