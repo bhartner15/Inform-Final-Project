@@ -11,6 +11,18 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 	
 use no scoring. 
 
+[Code to display a player's location in the game and possible exits in the header.]
+When play begins:
+	now left hand status line is "Exits: [exit list]";
+	now right hand status line is "[location]".
+	
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say " [way] ".
+
+
 Book One [When Player is Small]
 
 The description of the player is "You're dressed casually. You've got a green t-shirt on and black shorts. Oh and you're also only 3 inches tall." [Remember to change player description after you become big]
@@ -820,3 +832,13 @@ After sailing:
 	move mercury to player;
 	move magnesium to player;
 	move potassium to player.
+	
+
+
+
+
+
+
+
+
+
