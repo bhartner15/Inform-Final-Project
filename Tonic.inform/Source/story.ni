@@ -1,14 +1,15 @@
 "Tonic" by Brianna Hartner
 
 When play begins:
-	say "You've needed extra cash and this science lab was willing to pay good money for you to be a 'test bunny'. You took this chemical mixture but it did nothing at first so the scientists left you alone in the test room until later on. After and hour you end up being shrunk to three inches tall. You now realize how serious these scientists are and you must figure out how to get yourself back to normal proportions and escape the lab"
+	say "You've needed extra cash and this science lab was willing to pay good money for you to be a 'test bunny'. You took this chemical mixture but it did nothing at first so the scientists left you alone in the test room until later on. After an hour you end up being shrunk to three inches tall. You now realize how serious these scientists are and you must figure out how to get yourself back to normal proportions and escape the lab."
 
 [Disable take all]
 Rule for deciding whether all includes something: it does not.
 
 Rule for printing a parser error when the latest parser error is the nothing to do error:
 	say "Hey maybe you should actually TRY and play the game, you little cheater. K, thanks." instead
-
+	
+use no scoring. 
 
 Book One [When Player is Small]
 
@@ -19,7 +20,8 @@ Chapter One [Test Room + Hallway]
 The Test Room is a room. The description of the test room is "Pitch white walls surround you. There is a tinted window on the north side of the room. There is a table on the south side of the room and a chair on the east side. On the west side of the room, there is a door."
 
 The window is scenery in the test room. The description of the window is "It's tinted and you can't see a thing through it. The scientists were probably observing you from the other side."
-The walls is a backdrop. the walls is in the test room. the walls is in the parking lot. The description of the walls is "They are as white as snow and easily hurt your eyes from the reflection of the lights. "
+
+The walls is a backdrop. the walls is in the test room. the walls is in the hallway. the walls is in the xhallway. The description of the walls is "They are as white as snow and easily hurt your eyes from the reflection of the lights. "
 
 The lights is a backdrop. The lights is in the Test Room. The lights is in the Hallway. The description of the lights is "Very bright and florescent. It's hard to look directly at them."
 
@@ -43,9 +45,9 @@ The Shady Glades is a room. The Shady Glades is east of the test room. The descr
 
 The New Perspective is a room. The New Perspective is up of the Shady Glades. The description of the New Perspective is "You're on the seat of the chair."
 
-The Chair is a backdrop. The Chair is in the Test Room. The Chair is in the Shady Glades. The Chair is in the New Perspective. The description of the Chair is "It's cold hard plastic. Not very accomodating on the scientist's part."
+The Chair is a backdrop. The Chair is in the Test Room. The Chair is in the Shady Glades. The Chair is in the New Perspective. The description of the Chair is "It's cold hard plastic. Not very accomodating on the scientists' part."
 
-The Clamp is a thing in the New Perspective. The description of the Clamp is "Like it's original use, you can use this to hold this together. "
+The Clamp is a thing in the New Perspective. The description of the Clamp is "Like it's original use, you can use this to hold things together. "
 
 The Big Metal Door is a door. The Big Metal Door is west of the test room and east of the Hallway.  The Big Metal Door is lockable and locked. The description of the Big Metal Door is "It's a pretty big door, no matter how big you are."
 
@@ -53,23 +55,29 @@ The Arm Thingy unlocks the Big Metal Door. The description of the Arm Thingy is 
 
 The Hallway is a room. The Hallway is west of the Big Metal Door. The description of the Hallway is "It's not too different from the Test Room, just in hallway shape: There's those bright white walls and cold tile floor. The Test Room is to the East. There's a door to the west that says 'Chemical Lab' on it and to the south a door that says 'Exit'. The Hallway continues to the north, past a Trash Bin in the Northeast corner."
 
-The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal trash can stands before you. I really wouldn't suggest climbing up and going into it. Who knows what kind of toxic waste is thrown in there…."
+The Base of the Bin is a room. The Base of the Bin is northeast of the Hallway. The description of the base of the bin is "A giant metal trash bin stands before you. I really wouldn't suggest climbing up and going into it. Who knows what kind of toxic waste is thrown in there…. [line break] The Hallway is to the southwest."
 
-The Rodent's Paradise is a room. The Rodent's Paradise is up of the Base of the Bin. The description of the Rodent's Paradise is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to rummage through this junk." 
+The Rodent's Paradise is a room. The Rodent's Paradise is up of the Base of the Bin. The description of the Rodent's Paradise is "Yuck. I can't believe you are actually in here. Well, I guess it doesn't smell that bad. If you're willing to get your hands dirty, feel free to examine the junk." 
+
+The junk is a backdrop in the rodent's paradise. The description of the junk is "There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."
 
 The Trash Bin is a backdrop. The Trash Bin is in the Hallway. The Trash Bin is in the Base of the Bin. The Trash Bin is in the Rodent's Paradise. The description of the Trash Bin is "There's a half full milkshake, a plastic bag with a toxic sign on it, orange peels, a crinkled up piece of paper, a wad of tape, and some sticky notes."
 
 The Milkshake is an object. The Milkshake is in the Rodent's Paradise. The milkshake is undescribed. The description of the milkshake is "I guess someone doesn't like chocolate milkshakes."
 The Plastic Bag is an object. The Plastic Bag is in the Rodent's Paradise. The Plastic bag is undescribed. The description of the plastic bag is "There's an eerie green glow emanating from behind the Toxic symbol."
+The toxic symbol is a backdrop in the rodent's paradise. The description of the toxic symbol is "It's a black and red toxic symbol."
 The Orange Peels is an edible object. The Orange Peels is in the Rodent's Paradise. The Orange Peels is undescribed. The description of the Orange Peels is "Just the skin of an orange, with some gnarly mold growing on it."
 The mold is scenery in the Rodent's Paradise. The description of the mold is "It's beautiful shades of blue and green, with a hint of white. Such an eye-appeal."
 The Piece of Paper is an openable closed container. The Piece of Paper is in Rodent's Paradise. The Piece of Paper is undescribed. 
+
+Understand "read" as examining. 
+
 Instead of examining the Piece of Paper:
 	if the Piece of Paper is closed:
 		say "Seems to be all crinkled up in a ball.";
 	otherwise:
 		say "It seems to have writing on it: [line break]
-		ENLARGING CHEMICAL COMBONATION [line break]
+		ENLARGING CHEMICAL COMBINATION [line break]
 		Chemical X [line break]
 		Potassium [line break]
 		Mercury".		
@@ -101,7 +109,7 @@ The Parking Lot is a room.
 
 The tile is scenery in the Hallway. The description of the tile is "Asbestos tile."
 
-The Guy is a man. The Guy is in the Hallway. The description of the Guy is "He's just leaning against the wall, playing around with his phone. Hmm maybe he's on break. You look up at his face and realize he was the man that gave you the shrinking potion and told you to go into the Test Room. Dr. Cooper, I think."
+The Guy is a man. The Guy is in the Hallway. The description of the Guy is "He's just leaning against the wall, playing around with his phone. Hmm maybe he's on break. You look up at his face and realize he was the guy that gave you the shrinking potion and told you to go into the Test Room."
 
 After examining the Guy for the first time:
 	say "It's seems like he does not notice you."
@@ -205,7 +213,7 @@ The Bar is a backdrop. The Bar is in the Chemical Lab. The Bar is in the Tiled W
 
 The Shelf is a backdrop in the Chemical Lab. The Shelf is in the Grayscale. The Shelf is in the xChemicalxLab. The Shelf is in the Edge. The description of the Shelf is "A wooden shelf coming right out of the wall."
 
-The Cabinet is a backdrop in the Chemical Lab. The Cabinet is in the xChemicalxLab. The description of the Cabinet is "It's coated in white and seems to have something on top of it. You can't tell from here though due to your insignificant height."
+The Cabinet is a backdrop in the Chemical Lab.The Cabinet is in the Base Camp. The Cabinet is in the xChemicalxLab. The description of the Cabinet is "It's coated in white and seems to have something on top of it. You can't tell from here though due to your insignificant height."
 
 The refrigerator is a backdrop in the Chemical Lab. The refrigerator is in the xChemicalxLab. The description of the refrigerator is "Very modern looking and luckily the handles go from the base to the top so you can open it at any height."
 
@@ -221,7 +229,7 @@ The Edge is a room. The Edge is up of the Grayscale. The description of the Edge
 
 The Chemicals is an object in the edge. The Chemicals is undescribed. The description of the Chemicals is "There are many different vials and containers. The labels say that they are: Sugar,  Potassium, Spice, and Chemical X."
 
-The Sugar is an object in the Edge. The Sugar is undescribed. The description of the Sugar is "Sugar makes you hyper. Maybe sugar will make you're cell division hyper making you grow faster? Eh, maybe not."
+The Sugar is an object in the Edge. The Sugar is undescribed. The description of the Sugar is "Sugar makes you hyper. Maybe sugar will make your cell division hyper making you grow faster? Eh, maybe not."
 
 The Mercury is an edible object. The Mercury is in the Cool Zone. The description of the mercury is "Not the planet FYI"
 
@@ -253,7 +261,7 @@ Instead of taking the dust bunnies:
 	say "Those critters aren't going to fit in you back pocket while you're still three inches tall."
 
 Instead of going north when player is in Hallway:
-	say "I don't think you need to go this way to solve you're current problem. There's probably loads of scientists over there that wouldn't think twice about locking you in a box. "
+	say "I don't think you need to go this way to solve your current problem. There's probably loads of scientists over there that wouldn't think twice about locking you in a box. "
 
 Instead of taking the milkshake:
 	say "It's an X-tra large, and your X-tra small."
@@ -283,7 +291,7 @@ Instead of taking the sticky notes:
 
 Instead of opening the Big Metal door:
 	if player is not carrying Arm Thingy:
-		say "You can't reach the handle. Remember- You're three inches tall!! Maybe you can make something to help you open the door";
+		say "You can't reach the handle. Remember- You're three inches tall!! Maybe you can combine things with other things to help you open the door";
 	otherwise:
 		if the Big Metal Door is locked:
 			say "You have an arm thingy to unlock the door";
@@ -324,6 +332,9 @@ Instead of eating the orange peels:
 	say "There's no fruit, it's just the peels AND it's been in the garbage."
 
 Instead of going south when player is in Hallway:
+	say "I don't think it's a good idea to leave in your current condition."
+	
+Instead of opening the front door:
 	say "I don't think it's a good idea to leave in your current condition."
 
 Instead of going west when player is in Hallway:
@@ -382,6 +393,33 @@ After examining the steel door:
 	
 Instead of opening the steel door:
 	say "It's already open."
+	
+Instead of climbing the chair:
+	move player to New Perspective.
+	
+instead of climbing the table:
+	move player to Top of the World.
+	
+Instead of climbing the trash bin:
+	move player to Rodent's Paradise.
+	
+Instead of climbing the bar:
+	move player to Grayscale.
+	
+Instead of climbing the tiled wall:
+	move player to Grayscale.
+
+Instead of climbing in the Grayscale:
+	move player to Edge.
+	
+Instead of climbing the cabinet:
+	move player to Whitescale. 
+	
+Instead of eating the sugar:
+	say "Ew. That's plain sugar. That's nasty. Plain sugar doesn't even taste good - trust me."
+	
+Instead of eating the spice:
+	say "Ever heard of the Cinnamon Challenge? Yeah, it's a bad idea - Don't try it."
 
 Chapter Five [Key for Chemicals]
 
@@ -527,12 +565,13 @@ After flying:
 Understand "fly out" as flying out the window.
 Understand "flying out" as flying out the window.
 Understand "fly out the window" as flying out the window. 
+Understand "fly out window" as flying out the window. 
 Flying out the window is an action applying to nothing. 
 
 The Glass Window is scenery in the Whitescale. The description of the Glass window is "Freedom. Right there. No regular sized human could fit through, and why would a miniature human want to when his goal is to become bigger?"
 
 After flying out the window:
-		say "You fly out the window and into the freedom of the sky. You live the rest of your life peacefully as a Powerpuff Girl.";
+		say "You fly out the window and into the freedom of the sky. You live the rest of your life peacefully as a Powerpuff Girl. [line break] [line break] Congrats! You've won…. or have you? There's lots more fun to be had! There's three different endings- can you win them all? There's also 11 unique potion results. It doesn't end here!! [line break] [line break] To go back to the Whitescale say 'Abracadabra'.";
 		end the game in victory.
 
 
@@ -573,7 +612,7 @@ Understand "escaping through drain" as hophophoping.
 Hophophoping is an action applying to nothing.
 	
 After hophophoping:
-	say "You escape through the drain and live the rest of your life out as a mutant slug crocodile hybrid. You still haven't decided whether or not to be a good monster or a terrible villain. But hey, at least you're happy. - Plus, with your terrible crocodile claws and terribly forceful powers, you got your revenge on the scientists by gathering an army of the sewer dwellers to come up from the depths of the drains to rain terror onto the science lab. They will never be turning anyone into monopoly size players ever again.";
+	say "You escape through the drain and live the rest of your life out as a mutant slug crocodile hybrid. You still haven't decided whether or not to be a good monster or a terrible villain. But hey, at least you're happy. - Plus, with your terrible crocodile claws and terribly forceful powers, you got your revenge on the scientists by gathering an army of the sewer dwellers to come up from the depths of the drains to rain terror onto the science lab. They will never be turning anyone into monopoly size players ever again.  [line break] [line break] Congrats! You've won…. or have you? There's lots more fun to be had! There's three different endings- can you win them all? There's also 11 unique potion results. It doesn't end here!! [line break] [line break] To go back to the Whitescale say 'Abracadabra'.";
 	end the game in victory.  
 	
 	
@@ -655,6 +694,7 @@ After examining scientist:
 		say "I'm not sure if you're aware, but you are no longer unnoticeable like when you were small."
 
 Understand "how do I open the door" as giggling.
+Understand "how do I unlock the door" as giggling.
 Giggling is an action applying to nothing. 
 Understand "How do I get the id" as yoddling.
 Understand "How do I find the id" as yoddling.
@@ -713,16 +753,26 @@ The id unlocks the Exit Door. The id is in the Trash Can. The description of the
 After opening the Trash Can:
 	say "Yuck."
 	
+Instead of going south when player is in xChemicalxLab:
+	say "You're big now. There's just a refrigerator there."
+	
 Instead of going south when player is in xHallway:
 	if Exit Door is closed:
-		if door is locked:
-			say "There's a door there.";
-		if door is unlocked:
+		if the exit door is locked:
+			say "There's a closed door there.";
+		if the exit door is unlocked:
 			say "You hear a ding noise letting you know that the door unlocked, but you still need to open it.";
 	if Exit Door is open:
-		say "You exit the science lab and run to your car. You get in and drive away as far as you can, never returning to the sick lab ever again.";
+		say "You exit the science lab and run to your car. You get in and drive away as far as you can, never returning to the sick lab ever again. [line break] [line break] Congrats! You've won…. or have you? There's lots more fun to be had! There's three different endings- can you win them all? There's also 11 unique potion results. It doesn't end here!! [line break] [line break] To go back to the Whitescale say 'Abracadabra'.";
 		end the game in victory. 
 		
+Understand "go through [thing]" as rafting. 
+Rafting is an action applying to one visible thing. 
+
+Instead of rafting the exit door:
+	say "You exit the science lab and run to your car. You get in and drive away as far as you can, never returning to the sick lab ever again. [line break] [line break] Congrats! You've won…. or have you? There's lots more fun to be had! There's three different endings- can you win them all? There's also 11 unique potion results. It doesn't end here!! [line break] [line break] To go back to the Whitescale say 'Abracadabra'.";
+	end the game in victory. 
+
 Instead of opening the Exit Door:
 	if player does not have the id:
 		say "It seems to be locked. Maybe the scientist knows how to open the door.";
@@ -743,8 +793,7 @@ Understand "look under cabinet" and "look under the cabinet" as hogwarting.
 
 Instead of hogwarting:
 	say "You see nothing here."
-
-
+	
 
 Book Four [Cheats]
 
@@ -760,3 +809,14 @@ Charging is an action applying to nothing.
 After charging:
 	move player to xChemicalxLab.
 
+Understand "abracadabra" as sailing.
+Sailing is an action applying to nothing.
+
+After sailing:
+	move player to Whitescale;
+	move sugar to player;
+	move spice to player;
+	move chemical x to player;
+	move mercury to player;
+	move magnesium to player;
+	move potassium to player.
